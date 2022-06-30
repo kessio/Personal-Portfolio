@@ -7,7 +7,7 @@ nav {
   /* make the items on the nav bar line horizontally */
   display: flex; 
   justify-content: space-between;
-  margin: 20px 20px 5px 24px;
+  margin: 12px 15px 5px 15px;
 
   
 }
@@ -16,6 +16,7 @@ nav {
     font-size: 18px;
     color: #6070FF;
     font-weight: 700;
+  
    
 }
 .menu {
@@ -23,4 +24,10 @@ nav {
   color: #6070FF;
   font-size: 20px;
 }
-
+.headline {
+  background-image: url(images/header-shapes\ mobile.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 718px;
+}
