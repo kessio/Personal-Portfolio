@@ -1,0 +1,26 @@
+* {
+  /* Styling applied to the whole page */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  /* make the items on the nav bar line horizontally */
+  display: flex; 
+  justify-content: space-between;
+  margin: 20px 20px 5px 24px;
+
+  
+}
+.logo {
+  /* My Logo */
+    font-size: 18px;
+    color: #6070FF;
+    font-weight: 700;
+   
+}
+.menu {
+  /* Hamburger menu */  
+  color: #6070FF;
+  font-size: 20px;
+}
+
