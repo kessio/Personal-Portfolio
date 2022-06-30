@@ -3,50 +3,51 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 nav {
   /* make the items on the nav bar line horizontally */
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   margin: 10px 15px 5px 15px;
-
-  
 }
+
 .logo {
   /* My Logo */
-    width: 76px;
-    height: 20px;
-    font-size: 18px;
-    color: #6070FF;
-    font-weight: 700;
-  
-   
+  width: 76px;
+  height: 20px;
+  font-size: 18px;
+  color: #6070ff;
+  font-weight: 700;
 }
+
 .menu {
-  /* Hamburger menu */  
-  color: #6070FF;
+  /* Hamburger menu */
+  color: #6070ff;
   font-size: 20px;
-  
 }
+
 .headline {
   background-image: url(images/header-shapes\ mobile.png);
   position: absolute;
   height: 718px;
 }
+
 .headline-tag {
   padding-top: 114px;
   margin-left: 24px;
   margin-right: 24px;
 }
-h2{
+
+h2 {
   /* header 2 */
   margin-bottom: 12px;
   font-weight: 700px;
   font-size: 40px;
-  color: #172B4D;
+  color: #172b4d;
   align-items: center;
-  font-family: 'Poppins', sans-serif
-
+  font-family: 'Poppins', sans-serif;
 }
+
 .socials {
   margin-top: 12px;
 
@@ -55,31 +56,32 @@ h2{
   font-size: 16px;
 
   /*  color  */
-  color: #7F8CFF;
-
+  color: #7f8cff;
 }
+
 .twitter {
   /* twitter icon */
   width: 19.99px;
   height: 19.96px;
-  
 }
 
 .fa-linkedin {
- color: #505F79;
- font-size: 25px;
- padding-left: 20.3px;
- padding-right: 20px;
+  color: #505f79;
+  font-size: 25px;
+  padding-left: 20.3px;
+  padding-right: 20px;
 }
+
 .m {
   height: 16px;
   padding-right: 20px;
 }
+
 .github {
   height: 20px;
   padding-right: 19.9px;
-
 }
+
 .like {
   height: 20px;
 }
