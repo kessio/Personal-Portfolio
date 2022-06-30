@@ -7,12 +7,14 @@ nav {
   /* make the items on the nav bar line horizontally */
   display: flex; 
   justify-content: space-between;
-  margin: 12px 15px 5px 15px;
+  margin: 10px 15px 5px 15px;
 
   
 }
 .logo {
   /* My Logo */
+    width: 76px;
+    height: 20px;
     font-size: 18px;
     color: #6070FF;
     font-weight: 700;
