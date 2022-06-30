@@ -47,7 +47,7 @@ h2{
 }
 .socials {
   margin-top: 12px;
-  
+
   /* Make it bolder */
   font-weight: 500px;
   font-size: 16px;
@@ -55,4 +55,10 @@ h2{
   /*  color  */
   color: #7F8CFF;
 
+}
+.twitter {
+  /* twitter icon */
+  width: 19.99px;
+  height: 19.96px;
+  
 }
