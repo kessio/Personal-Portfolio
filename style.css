@@ -23,11 +23,36 @@ nav {
   /* Hamburger menu */  
   color: #6070FF;
   font-size: 20px;
+  
 }
 .headline {
   background-image: url(images/header-shapes\ mobile.png);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: absolute;
   height: 718px;
+}
+.headline-tag {
+  padding-top: 114px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+h2{
+  /* header 2 */
+  margin-bottom: 12px;
+  font-weight: 700px;
+  font-size: 40px;
+  color: #172B4D;
+  align-items: center;
+  font-family: 'Poppins', sans-serif
+
+}
+.socials {
+  margin-top: 12px;
+  
+  /* Make it bolder */
+  font-weight: 500px;
+  font-size: 16px;
+
+  /*  color  */
+  color: #7F8CFF;
+
 }
