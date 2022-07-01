@@ -1,0 +1,101 @@
+* {
+  /* Styling applied to the whole page */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-homepage {
+  background-image: url(images/header-background-mobile.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 718px;
+  width: 375px;
+}
+
+nav {
+  /* make the items on the nav bar line horizontally */
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px 5px 15px;
+}
+
+.logo {
+  /* My Logo */
+  width: 76px;
+  height: 20px;
+  font-size: 18px;
+  color: #6070ff;
+  font-weight: 700;
+}
+
+a.nav-item {
+  text-decoration: none;
+}
+
+.menu {
+  /* Hamburger menu */
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.headline-tag {
+  /* headline-tag background image */
+  background-image: url(images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  height: 718px;
+  width: 375px;
+}
+
+.headline-text {
+  padding-top: 114px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+h2 {
+  /* header 2 */
+  margin-bottom: 12px;
+  font-weight: 700px;
+  font-size: 40px;
+  color: #172b4d;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.socials {
+  margin-top: 12px;
+
+  /* Make it bolder */
+  font-weight: 500px;
+  font-size: 16px;
+
+  /*  color  */
+  color: #7f8cff;
+}
+
+.twitter {
+  /* twitter icon */
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.fa-linkedin {
+  color: #505f79;
+  font-size: 25px;
+  padding-left: 20.3px;
+  padding-right: 20px;
+}
+
+.m {
+  height: 16px;
+  padding-right: 20px;
+}
+
+.github {
+  height: 20px;
+  padding-right: 19.9px;
+}
+
+.like {
+  height: 20px;
+}
