@@ -3,6 +3,9 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+body {
+  background-color: #E5E5E5;
+}
 
 .container-homepage {
   background-image: url(images/header-background-mobile.svg);
