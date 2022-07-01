@@ -4,6 +4,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.container-homepage {
+  background-image: url(images/header-background-mobile.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 718px;
+  width: 375px;
+}
+
 nav {
   /* make the items on the nav bar line horizontally */
   display: flex;
@@ -28,15 +36,6 @@ a.nav-item {
   /* Hamburger menu */
   color: #6070ff;
   font-size: 20px;
-}
-
-.headline {
-  /* headline background image */
-  background-image: url(images/header-background-mobile.svg);
-  position: absolute;
-  background-repeat: no-repeat;
-  height: 718px;
-  width: 375px;
 }
 
 .headline-tag {
