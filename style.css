@@ -62,12 +62,14 @@ a.nav-item {
   padding-top: 114px;
   margin-left: 24px;
   margin-right: 24px;
+  color: #344563
 }
 
 h2 {
   /* header 2 */
   margin-bottom: 12px;
   font-weight: 700px;
+  line-height: 52px;
   font-size: 40px;
   color: #172b4d;
   align-items: center;
@@ -209,7 +211,7 @@ h2 {
   
 }
 .view-btn a{
-  /* text decoration  */
+  /* font styling  */
   text-decoration: none;
   align-items: center;
   text-align: center;
@@ -218,6 +220,140 @@ h2 {
   line-height: 24px;
   letter-spacing: 3%;
   color: #396DF2;
+}
 
+/*-- About Section    ---*/
+
+.about-section{
+  background-image: url(images/Base\ about\ my\ self.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 375px;
+  height: 1263px;
+}
+.about-col {
+  padding: 114px 24px 12px 24px;
+}
+.about-text{
+  height: 144px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+.connect{
+  padding-top: 12px;
+  padding-bottom: 26px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+
+}
+.git {
+  height: 20px;
+  width: 17.99px;
+}
+.likee {
+  padding-right: 20px;
+}
+.twit{
+  padding-right: 20px;
+}
+.resume-btn {
+  padding: 12px;
+  border: solid #396DF2 1px;
+  border-radius: 16px;
+  width: 138px;
+  margin-top: 26px;
+}
+.resume-btn a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #396DF2;
+  margin-bottom: 60px;
+}
+ h5 {
+  margin-top: 50px;
+  width: 237px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  margin-left: 36px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 237px; 
+  margin-left: 36px;
+}
+.fa-angle-down {
+width: 12px;
+height: 6px;
+padding-left: 50px;
+font-size: 24px;
+}
+.my-lang{
+width: 303px;
+height: 66px;
+background-color: #F7F7F9;
+padding-left: 12px;
+margin-bottom: 12px;
+border-radius: 8px;
+
+}
+.my-lang img{
+  width: 48px;
+  height: 48px;
+  padding-right: 12px;
+  padding-top: 2px;
+  justify-content: last baseline;
+}
+.my-lang .my-lang-text {
+ font-size: 15px;
+ font-weight: 500;
+ line-height: 60px;
+}
+a{
+  text-decoration: none;
+}
+
+a.my-lang:hover {
+  border: solid #396DF2 1px;
   
 }
+.others {
+  margin-left: 36px;
+  width: 237px;
+  margin-top: 12px;
+}
+.lists {
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 12px;
+}
+.others-item{
+  list-style: none;
+  width: 6px;
+  height: 12px;
+}
+.framework{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.border{
+  border-bottom: solid #DFE1E6 1px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
