@@ -33,6 +33,7 @@ a.nav-item {
 .headline {
   background-image: url(images/header-shapes\ mobile.png);
   position: absolute;
+  background-repeat: no-repeat;
   height: 718px;
 }
 
