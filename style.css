@@ -20,6 +20,10 @@ nav {
   font-weight: 700;
 }
 
+a.nav-item {
+  text-decoration: none;
+}
+
 .menu {
   /* Hamburger menu */
   color: #6070ff;
