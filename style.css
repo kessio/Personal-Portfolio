@@ -2,10 +2,12 @@
   /* Styling applied to the whole page */
   margin: 0;
   padding:0;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background-color: #E5E5E5;
+  background-color:  #E5E5E5;
 }
 
 .container-homepage {
@@ -14,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 375px;
-  
+  height: 718px;
   
 }
 
@@ -110,3 +112,112 @@ h2 {
   height: 20px;
 }
 
+/*------------Work section------------*/
+.section-work{
+  margin-top: 98px;
+  
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-col {
+  box-sizing: border-box;
+  background-color: #FFFF;
+  padding: 16px;
+  margin-left:24px;
+  margin-right: 24px;
+  margin-bottom: 104px;
+  border-radius: 16px;
+  height: 552px;
+}
+.work-img{
+  border-radius: 8px;
+  margin-bottom: 12px;
+
+}
+.work-col h3 {
+  width: 295px;
+  height: 36px;
+  margin-bottom: 20px;
+  color: #172B4D;
+
+  /* Bolden the font*/
+  font-weight: 700px;
+  font-size: 32px;
+  line-height: 44px;
+}
+.work-sub {
+  width: 35px;
+  height: 16px;
+  /*  Bolden font*/
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: 'Poppins';
+  color: #344563;
+}
+.work-skill {
+  width: 88px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+ 
+}
+.counter {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.work-experience{
+  width: 88px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7A869A;
+}
+.text-col {
+  width: 295px;
+  height: 76px;
+  font-weight: 400;
+  color: #344563;
+  margin-bottom: 12px;
+}
+.skills {
+  background-color: #EBEBFF;;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+  
+  /* Font styling */
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  color: #6070FF
+}
+.view-btn {
+  border: solid #396DF2 1px;
+  padding: 12px;
+  width: 100px;
+  height: 24px;
+  margin-top: 20px;
+  border-radius: 16px;
+  
+}
+.view-btn a{
+  /* text decoration  */
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #396DF2;
+
+  
+}
