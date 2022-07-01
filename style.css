@@ -1,6 +1,7 @@
 * {
   /* Styling applied to the whole page */
   margin: 0;
+  padding:0;
   font-family: 'Poppins', sans-serif;
 }
 body {
@@ -9,17 +10,19 @@ body {
 
 .container-homepage {
   background-image: url(images/header-background-mobile.svg);
-  position: absolute;
+  position: relative;
   background-repeat: no-repeat;
-  height: 718px;
+  background-size: cover;
   width: 375px;
+  
+  
 }
 
 nav {
   /* make the items on the nav bar line horizontally */
   display: flex;
   justify-content: space-between;
-  margin: 10px 15px 5px 15px;
+ 
 }
 
 .logo {
@@ -29,6 +32,8 @@ nav {
   font-size: 18px;
   color: #6070ff;
   font-weight: 700;
+  margin-left: 24px;
+  margin-top: 12px;
 }
 
 a.nav-item {
@@ -39,6 +44,8 @@ a.nav-item {
   /* Hamburger menu */
   color: #6070ff;
   font-size: 20px;
+  margin-right: 12px;
+  margin-top: 12px;
 }
 
 .headline-tag {
@@ -102,3 +109,4 @@ h2 {
 .like {
   height: 20px;
 }
+
