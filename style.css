@@ -31,13 +31,23 @@ a.nav-item {
 }
 
 .headline {
-  background-image: url(images/header-shapes\ mobile.png);
+  /* headline background image */
+  background-image: url(images/header-background-mobile.svg);
   position: absolute;
   background-repeat: no-repeat;
   height: 718px;
+  width: 375px;
 }
 
 .headline-tag {
+  /* headline-tag background image */
+  background-image: url(images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  height: 718px;
+  width: 375px;
+}
+
+.headline-text {
   padding-top: 114px;
   margin-left: 24px;
   margin-right: 24px;
