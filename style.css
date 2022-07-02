@@ -6,6 +6,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -264,7 +265,7 @@ a.connect {
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .git {
@@ -307,28 +308,29 @@ h5 {
   color: #000;
   margin-left: 36px;
 }
-.angle-down{
-  float:right;
+
+.angle-down {
+  float: right;
   margin-right: 64px;
- 
-  
 }
+
 .languages {
- display: flex;
- flex-direction: column;
- padding-left: 36px;
- padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 36px;
+  padding-top: 12px;
 }
-.my-lang{
+
+.my-lang {
   display: flex;
   width: 303px;
   height: 66.72px;
   margin-top: 24px;
   border-radius: 8px;
-  background: #F7F7F9;
-
+  background: #f7f7f9;
 }
-.my-lang-text{
+
+.my-lang-text {
   width: 215px;
   height: 24px;
   font-weight: 500;
@@ -339,6 +341,7 @@ h5 {
   align-items: center;
   align-content: space-around;
 }
+
 .lang-img {
   padding-left: 12px;
   padding-top: 9px;
@@ -346,32 +349,36 @@ h5 {
   width: 48px;
   height: 48px;
 }
+
 a.my-lang {
-  text-decoration: none ;
+  text-decoration: none;
 }
-.others{
+
+.others {
   margin-top: 36px;
   margin-left: 36px;
 }
-.framework{
+
+.framework {
   width: 300px;
   padding-bottom: 24px;
   padding-top: 24px;
-  border-bottom: 2px solid #ACB7C3;;
+  border-bottom: 2px solid #acb7c3;
 }
-.framework-text{
+
+.framework-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
+
 .fa-angle-right {
   float: right;
   font-size: 20px;
 }
 
-
-/* contact section*/
+/* contact section */
 .contact-section {
   background-image: url(images/contact\ form\ shapes-mobile@2x.fw.png);
   background-repeat: no-repeat;
