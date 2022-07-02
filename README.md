@@ -2,7 +2,7 @@
 
 # Personal-Portfolio
 
-> This project was made with HTML and CSS lintern and proper Github Flow was used. The project contains a navigation bar and hero section user Interface design which was parsed from Figma. The UI is made for mobile and small devices only.
+> This project was made with HTML and CSS lintern and proper Github Flow was used. The project contains a navigation bar and hero section user Interface design which was parsed from Figma.The project also contains a section of work showing sample projects, about section and contact section all parsed from Figma. The UI is made for mobile and small devices only.
 
 
 ## Built With
