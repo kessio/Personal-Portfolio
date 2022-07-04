@@ -129,6 +129,7 @@ h2 {
 }
 
 .work-col {
+  display: grid;
   box-sizing: border-box;
   background-color: #ffff;
   padding: 16px;
@@ -167,6 +168,7 @@ h2 {
   color: #344563;
 }
 
+
 .work-skill {
   width: 88px;
   height: 16px;
@@ -199,6 +201,8 @@ h2 {
 }
 
 .skills {
+  display:block;
+  float:left;
   background-color: #ebebff;
   padding: 4px 12px 4px 12px;
   border-radius: 8px;
@@ -211,14 +215,14 @@ h2 {
   text-decoration: none;
   color: #6070ff;
 }
-
 .view-btn {
   border: solid #396df2 1px;
   padding: 12px;
   width: 100px;
   height: 24px;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 8px;
+  
 }
 
 a .view-btn {
