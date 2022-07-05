@@ -2,7 +2,7 @@
 
 # Personal-Portfolio
 
-> This project was made with HTML and CSS lintern and proper Github Flow was used. The project contains a navigation bar and hero section user Interface design which was parsed from Figma.The project also contains a section of work showing sample projects, about section and contact section all parsed from Figma. The UI is made for mobile and small devices only.
+> This project was made with HTML and CSS lintern and proper Github Flow was used. The project contains a navigation bar and hero section user Interface design which was parsed from Figma.The project also contains a section of work showing sample projects, about section and contact section all parsed from Figma. The UI is made for mobile and small devices only. The contact section of the portfolio was done by all the three authors listed below as contributing authors
 
 
 ## Built With
@@ -34,6 +34,16 @@
 - GitHub: [@kessio](https://github.com/kessio)
 - Twitter: [@kessio_sharon](https://twitter.com/kessio_sharon)
 - LinkedIn: [sharon-kessio](https://www.linkedin.com/in/sharon-kessio-172220b5)
+
+👤 **Author2**
+- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
+- Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ronald-mjonono-86365988)
+
+👤 **Author3**
+- GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
+- Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
+- LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
 
 
 ## 🤝 Contributing
