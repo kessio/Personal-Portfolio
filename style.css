@@ -423,7 +423,7 @@ form {
 }
 
 input {
-  width: 327px;
+  width: 320px;
   height: 48px;
   border: solid #fff;
   border-radius: 8px;
@@ -438,7 +438,7 @@ input {
 }
 
 textarea {
-  width: 327px;
+  width: 320px;
   height: 170px;
   border-radius: 8px;
 
