@@ -476,6 +476,7 @@ textarea {
 .contact-btn {
   background-color: #fff;
   padding: 12px 16px 12px 16px;
+  border: none;
   border-radius: 8px;
   width: 140px;
   margin-top: 22px;
