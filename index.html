@@ -190,15 +190,15 @@
         <div class="contact-col">
             <h4>Contact Me</h4>
             <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <form action="POST" class="form-contact">
+            <form action="https://formspree.io/f/xjvlqgrb" method="POST" class="form-contact">
                 <div class="form-contact">
-                    <input type="text" name="name" id="name" placeholder="yourname">
+                    <input type="text" name="name" id="name" placeholder="yourname" maxlength="30" required="required">
                 </div>
                 <div class="form-contact">
-                    <input type="email" placeholder="youremail@email.com" id="email">
+                    <input type="email" placeholder="youremail@email.com" id="email" required="required">
                 </div>
                 <div class="form-contact">
-                    <textarea placeholder="Write your message here" rows="4" cols="50"></textarea>
+                    <textarea placeholder="Write your message here" rows="4" cols="50" maxlength="500" required="required"></textarea>
                 </div>
                 <div class="form-contact">
                     <a href="#">
