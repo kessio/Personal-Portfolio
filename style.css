@@ -5,7 +5,6 @@
   font-family: 'Nunito', sans-serif;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
-  
 }
 
 a {
@@ -24,8 +23,7 @@ body {
   height: 718px;
   top: 0%;
   border-bottom-left-radius: 60px;
- width: 375px;
-
+  width: 375px;
 }
 
 nav {
@@ -133,14 +131,12 @@ h2 {
   margin-top: 112px;
   margin-left: 24px;
   margin-right: 24px;
-  
 }
 
 .row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .work-col {
@@ -403,14 +399,12 @@ a.my-lang {
   margin-top: 1200px;
   height: 779px;
   width: 375px;
-
-  
 }
-.contact-col{
+
+.contact-col {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 
 h4 {
