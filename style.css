@@ -17,10 +17,9 @@ body {
 
 .container-homepage {
   background-image: url(images/header-background-mobile.svg);
-  position: relative;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  width: 375px;
   height: 718px;
 }
 
@@ -45,26 +44,32 @@ a.nav-item {
   text-decoration: none;
 }
 
-.menu {
+a.menu {
   /* Hamburger menu */
   color: #6070ff;
   font-size: 20px;
-  margin-right: 12px;
+  margin-right: 19px;
   margin-top: 12px;
 }
 
-.headline-tag {
-  /* headline-tag background image */
+.headline {
   background-image: url(images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  height: 718px;
-  width: 375px;
+  background-position: center;
+  background-size: cover;
+  height: 588px;
 }
 
 .headline-text {
   padding-top: 114px;
   margin-left: 24px;
   margin-right: 24px;
+  width: 327px;
+  height: 146px;
+  top: 276px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
 }
 
@@ -119,7 +124,9 @@ h2 {
 
 /* ------------Work section------------ */
 .section-work {
-  margin-top: 98px;
+  margin-top: 112px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .row {
@@ -137,6 +144,7 @@ h2 {
   margin-bottom: 104px;
   border-radius: 16px;
   height: 552px;
+  width: 327px;
 }
 
 .work-img {
@@ -233,14 +241,17 @@ a .view-btn {
   color: #396df2;
 }
 
+.view-btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
 /* -- About Section    --- */
 
 .about-section {
   background-image: url(images/Base\ about\ my\ self.png);
-  position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 375px;
   height: 1263px;
 }
 
@@ -300,8 +311,12 @@ a .resume-btn {
   margin-bottom: 60px;
 }
 
+.resume-btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
 h5 {
-  width: 363px;
   height: 24px;
   font-weight: 500;
   font-size: 20px;
@@ -378,4 +393,97 @@ a.my-lang {
   font-size: 20px;
 }
 
+/* contact section */
+.contact-section {
+  background-image: url(images/contact\ form\ shapes-mobile@2x.fw.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 779px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
 
+h4 {
+  padding-left: -213px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  padding-top: 103px;
+}
+
+.contact-text {
+  height: 102px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  padding-right: 12%;
+  padding-left: 12%;
+  text-align: center;
+}
+
+form {
+  margin-top: 80px;
+  margin-left: 15px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 48px;
+  border: solid #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+
+  /*     Font styling    */
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+textarea {
+  width: 320px;
+  height: 170px;
+  border-radius: 8px;
+
+  /* Font styling */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cfd8dc;
+  padding-top: 15px;
+  padding-left: 16px;
+  margin-right: 24px;
+}
+
+.contact-btn {
+  background-color: #fff;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius: 8px;
+  width: 140px;
+  margin-top: 22px;
+  /* Font styling */
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.contact-btn:hover {
+  background: #6070ff;
+  color: #fff;
+  border: #fff 1px solid;
+  border-radius: 8px;
+}
