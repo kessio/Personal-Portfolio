@@ -97,7 +97,16 @@ body {
     color: #7f8cff;
   }
    /* 1.2 Work Section  */
- 
+   .section-work {
+    margin-top: 112px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
    .work-col {
     box-sizing: border-box;
     background-color: #ffff;
@@ -109,7 +118,106 @@ body {
     height: 552px;
     width: 327px;
   }
-   
+  
+  .work-img {
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .work-col h3 {
+    width: 295px;
+    height: 36px;
+    margin-bottom: 20px;
+    color: #172b4d;
+  
+    /* Bolden the font */
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .work-sub {
+    width: 35px;
+    height: 16px;
+  
+    /*  Bolden font */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #344563;
+  }
+  
+  .work-skill {
+    width: 88px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+  
+  .counter {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+  .work-experience {
+    width: 88px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+  }
+  
+  .text-col {
+    width: 295px;
+    height: 76px;
+    font-weight: 400;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+  
+  .skills {
+    background-color: #ebebff;
+    padding: 4px 12px 4px 12px;
+    border-radius: 8px;
+    margin-right: 8px;
+  
+    /* Font styling */
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: #6070ff;
+  }
+  
+  .view-btn {
+    border: solid #396df2 1px;
+    padding: 12px;
+    width: 100px;
+    height: 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  a .view-btn {
+    /* font styling  */
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #396df2;
+  }
+  
+  .view-btn:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+  
   
 
 }
@@ -229,119 +337,8 @@ h2 {
 
 
 /* ------------Work section------------ */
-.section-work {
-  margin-top: 112px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 
-
-
-.work-img {
-  border-radius: 8px;
-  margin-bottom: 12px;
-}
-
-.work-col h3 {
-  width: 295px;
-  height: 36px;
-  margin-bottom: 20px;
-  color: #172b4d;
-
-  /* Bolden the font */
-  font-weight: 700px;
-  font-size: 32px;
-  line-height: 44px;
-}
-
-.work-sub {
-  width: 35px;
-  height: 16px;
-
-  /*  Bolden font */
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 18px;
-  color: #344563;
-}
-
-.work-skill {
-  width: 88px;
-  height: 16px;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
-
-.counter {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.work-experience {
-  width: 88px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  color: #7a869a;
-}
-
-.text-col {
-  width: 295px;
-  height: 76px;
-  font-weight: 400;
-  color: #344563;
-  margin-bottom: 12px;
-}
-
-.skills {
-  background-color: #ebebff;
-  padding: 4px 12px 4px 12px;
-  border-radius: 8px;
-  margin-right: 8px;
-
-  /* Font styling */
-  align-items: center;
-  font-weight: 500;
-  font-size: 12px;
-  text-decoration: none;
-  color: #6070ff;
-}
-
-.view-btn {
-  border: solid #396df2 1px;
-  padding: 12px;
-  width: 100px;
-  height: 24px;
-  margin-top: 20px;
-  border-radius: 8px;
-}
-
-a .view-btn {
-  /* font styling  */
-  text-decoration: none;
-  align-items: center;
-  text-align: center;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  color: #396df2;
-}
-
-.view-btn:hover {
-  background: #6070ff;
-  color: #fff;
-}
 
 /* -- About Section    --- */
 
