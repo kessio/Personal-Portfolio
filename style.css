@@ -15,112 +15,202 @@ body {
   background-color: #e5e5e5;
 }
 
-.container-homepage {
-  background-image: url(images/header-background-mobile.svg);
+/*  1 Mobile and small devices media query  */
+@media only screen and (max-width: 768px) {
+  /*  1.1 Header  */
+
+  .desktop-menu{
+    display: none;
+  }
+  .container-homepage {
+    background-image: url(images/header-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 718px;
+  }
+  
+  .headline {
+    background-image: url(images/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 588px;
+  }
+  a.mobile-menu-item {
+    color: #6070ff;
+    font-size: 20px;
+    margin-right: 19px;
+    margin-top: 12px;
+  }
+  .mobile-nav {
+    /* make the items on the nav bar line horizontally */
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    /* My Logo */
+    width: 76px;
+    height: 20px;
+    font-size: 18px;
+    color: #6070ff;
+    font-weight: 700;
+    margin-left: 24px;
+    margin-top: 12px;
+  }
+  
+  a.nav-item {
+    text-decoration: none;
+  }
+  .headline-text {
+    padding-top: 114px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    height: 146px;
+    top: 276px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+  
+  h2 {
+    /* header 2 */
+    margin-bottom: 12px;
+    font-weight: 700px;
+    line-height: 52px;
+    font-size: 40px;
+    color: #172b4d;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .socials {
+    margin-top: 12px;
+  
+    /* Make it bolder */
+    font-weight: 500px;
+    font-size: 16px;
+  
+    /*  color  */
+    color: #7f8cff;
+  }
+  
+  .twitter {
+    /* twitter icon */
+    width: 19.99px;
+    height: 19.96px;
+  }
+  
+  .fa-linkedin {
+    color: #505f79;
+    font-size: 25px;
+    padding-left: 20.3px;
+    padding-right: 20px;
+  }
+  
+  .m {
+    height: 16px;
+    padding-right: 20px;
+  }
+  
+  .github {
+    height: 20px;
+    padding-right: 19.9px;
+  }
+  
+  .like {
+    height: 20px;
+  }
+
+}
+
+/* 2 Desktop and Large devices media query  */
+@media only screen and (min-width: 768px) {
+  /*  2.1 Header  */
+  .mobile-nav {
+    display: none;
+  }
+ 
+  .desktop-menu {
+    display: flex;
+    
+  }
+  .desktop-logo {
+    padding: 25px 0px 0px 150px;
+    width: 76px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070FF;
+  }
+  .desktop-menu-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: 154px;
+    align-items: center;
+  }
+  .list-items {
+    list-style: none;
+    padding: 25px 32px 0px 32px;
+    
+  }
+  .list-items a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #344563;
+  }
+.container-homepage{
+  background-image: url(images/header\ background\ shape-desktop.svg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  height: 718px;
-}
+  height: 916px;
 
-nav {
-  /* make the items on the nav bar line horizontally */
-  display: flex;
-  justify-content: space-between;
 }
-
-.logo {
-  /* My Logo */
-  width: 76px;
-  height: 20px;
-  font-size: 18px;
-  color: #6070ff;
-  font-weight: 700;
-  margin-left: 24px;
-  margin-top: 12px;
-}
-
-a.nav-item {
-  text-decoration: none;
-}
-
-a.menu {
-  /* Hamburger menu */
-  color: #6070ff;
-  font-size: 20px;
-  margin-right: 19px;
-  margin-top: 12px;
-}
-
 .headline {
-  background-image: url(images/header-shapes\ mobile.png);
+  background-image: url(images/Header\ bg.svg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  height: 588px;
+  background-position: center;
+  height: 712px;
 }
 
 .headline-text {
-  padding-top: 114px;
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 327px;
-  height: 146px;
-  top: 276px;
-  font-weight: 400;
+  padding-left: 20%;
+  padding-top: 15%;
+  padding-right: 25%;
+}
+h2 {
+  height: 122px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #091E42;
+  padding-bottom: 12px;
+}
+.socials {
+  padding-top: 12px;
+  height: 24px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: #7F8CFF;
 }
 
-h2 {
-  /* header 2 */
-  margin-bottom: 12px;
-  font-weight: 700px;
-  line-height: 52px;
-  font-size: 40px;
-  color: #172b4d;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
+
+
 }
 
-.socials {
-  margin-top: 12px;
 
-  /* Make it bolder */
-  font-weight: 500px;
-  font-size: 16px;
 
-  /*  color  */
-  color: #7f8cff;
-}
 
-.twitter {
-  /* twitter icon */
-  width: 19.99px;
-  height: 19.96px;
-}
 
-.fa-linkedin {
-  color: #505f79;
-  font-size: 25px;
-  padding-left: 20.3px;
-  padding-right: 20px;
-}
 
-.m {
-  height: 16px;
-  padding-right: 20px;
-}
 
-.github {
-  height: 20px;
-  padding-right: 19.9px;
-}
-
-.like {
-  height: 20px;
-}
 
 /* ------------Work section------------ */
 .section-work {
