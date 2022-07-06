@@ -15,9 +15,9 @@ body {
   background-color: #e5e5e5;
 }
 
-/*  1 Mobile and small devices media query  */
+/*====================  1.0 == Mobile and small devices media query =====================  */
 @media only screen and (max-width: 768px) {
-  /*  1.1 Header  */
+  /* ----------------  1.1 Mobile Header  ------------------------------------------------------- */
 
   .desktop-menu{
     display: none;
@@ -44,7 +44,6 @@ body {
     margin-top: 12px;
   }
   .mobile-nav {
-    /* make the items on the nav bar line horizontally */
     display: flex;
     justify-content: space-between;
   }
@@ -76,7 +75,6 @@ body {
   }
   
   h2 {
-    /* header 2 */
     margin-bottom: 12px;
     font-weight: 700px;
     line-height: 52px;
@@ -88,21 +86,17 @@ body {
   
   .socials {
     margin-top: 12px;
-  
-    /* Make it bolder */
     font-weight: 500px;
     font-size: 16px;
-  
-    /*  color  */
     color: #7f8cff;
   }
-   /* 1.2 Mobile Work Section  */
+   /* -------------------------  1.2 Mobile Work Section -------------------  */
 
    .desktop-work-section{
     display: none;
 
    }
-   .section-work {
+   .section-work-mobile {
     margin-top: 112px;
     margin-left: 24px;
     margin-right: 24px;
@@ -134,8 +128,6 @@ body {
     height: 36px;
     margin-bottom: 20px;
     color: #172b4d;
-  
-    /* Bolden the font */
     font-weight: 700px;
     font-size: 32px;
     line-height: 44px;
@@ -144,8 +136,6 @@ body {
   .work-sub {
     width: 35px;
     height: 16px;
-  
-    /*  Bolden font */
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
@@ -188,8 +178,6 @@ body {
     padding: 4px 12px 4px 12px;
     border-radius: 8px;
     margin-right: 8px;
-  
-    /* Font styling */
     align-items: center;
     font-weight: 500;
     font-size: 12px;
@@ -207,7 +195,6 @@ body {
   }
   
   a .view-btn {
-    /* font styling  */
     text-decoration: none;
     align-items: center;
     text-align: center;
@@ -227,9 +214,10 @@ body {
 
 }
 
-/* 2 Desktop and Large devices media query  */
+/* ====================== 2.0 === Desktop and Large devices media query  ==================================== */
+
 @media only screen and (min-width: 768px) {
-  /*  2.1 Header  */
+  /*---------------------------  2.1 Header ---------------------------------- */
   .mobile-nav {
     display: none;
   }
@@ -304,8 +292,10 @@ h2 {
   padding-bottom: 30px;
 }
 
-/* 2.2  Work Section  */
-
+/* --------------------------- 2.2  Work Section ---------------------------------------  */
+.section-work-mobile{
+  display: none;
+}
 
 
 
