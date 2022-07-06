@@ -96,7 +96,12 @@ body {
     /*  color  */
     color: #7f8cff;
   }
-   /* 1.2 Work Section  */
+   /* 1.2 Mobile Work Section  */
+
+   .desktop-work-section{
+    display: none;
+
+   }
    .section-work {
     margin-top: 112px;
     margin-left: 24px;
@@ -298,6 +303,9 @@ h2 {
   color: #7F8CFF;
   padding-bottom: 30px;
 }
+
+/* 2.2  Work Section  */
+
 
 
 
