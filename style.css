@@ -97,32 +97,7 @@ body {
     color: #7f8cff;
   }
   
-  .twitter {
-    /* twitter icon */
-    width: 19.99px;
-    height: 19.96px;
-  }
   
-  .fa-linkedin {
-    color: #505f79;
-    font-size: 25px;
-    padding-left: 20.3px;
-    padding-right: 20px;
-  }
-  
-  .m {
-    height: 16px;
-    padding-right: 20px;
-  }
-  
-  .github {
-    height: 20px;
-    padding-right: 19.9px;
-  }
-  
-  .like {
-    height: 20px;
-  }
 
 }
 
@@ -199,12 +174,39 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #7F8CFF;
+  padding-bottom: 12px;
 }
 
 
 
 }
 
+.twitter {
+  /* twitter icon */
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.fa-linkedin {
+  color: #505f79;
+  font-size: 25px;
+  padding-left: 20.3px;
+  padding-right: 20px;
+}
+
+.m {
+  height: 16px;
+  padding-right: 20px;
+}
+
+.github {
+  height: 20px;
+  padding-right: 19.9px;
+}
+
+.like {
+  height: 20px;
+}
 
 
 
