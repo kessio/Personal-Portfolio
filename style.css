@@ -296,7 +296,18 @@ h2 {
 .section-work-mobile{
   display: none;
 }
-
+.desktop-work-section{
+  margin-top: 142px;
+}
+.work-row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: #000 1px solid;
+  margin-left: 12%;
+  margin-bottom: 116px;
+  background-color: #fff;
+}
 
 
 }
