@@ -123,7 +123,7 @@ h2 {
 
 /* ------------Work section------------ */
 .section-work {
-  margin-top: 112px;
+margin-top: 112px;
 margin-left: 24px;
 margin-right: 24px;
 }
@@ -227,6 +227,11 @@ margin-right: 24px;
   margin-top: 20px;
   border-radius: 8px;
 }
+.view-btn:hover {
+  background: #6070FF;
+  color: #FFFFFF;
+
+}
 
 a .view-btn {
   /* font styling  */
@@ -292,6 +297,10 @@ a.connect {
   border-radius: 16px;
   width: 138px;
   margin-top: 26px;
+}
+.resume-btn:hover{
+  background: #6070FF;
+  color: #FFFFFF;
 }
 
 a .resume-btn {
@@ -391,6 +400,7 @@ a.my-lang {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 h4 {
@@ -460,6 +470,7 @@ textarea {
   width: 140px;
   margin-top: 22px;
 
+
   /* Font styling */
   font-weight: 500;
   font-size: 17px;
@@ -468,4 +479,12 @@ textarea {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  
+}
+.contact-btn:hover{
+  background: #6070FF;
+  color: #FFFFFF;
+  border: #fff 1px solid;
+  border-radius: 8px;
+
 }
