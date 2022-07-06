@@ -398,15 +398,14 @@ a.my-lang {
   margin-top: 1200px;
   height: 779px;
   max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  
 }
 
 
-.contact-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 h4 {
   padding-left: -213px;
@@ -420,32 +419,32 @@ h4 {
 
 .contact-text {
   height: 102px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #fff;
+  padding-right: 12%;
+  padding-left: 12%;
+  text-align: center;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
   margin-top: 50px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 15px;
+
 }
 
 input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 320px;
   height: 48px;
   border: solid #fff;
   border-radius: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 24px;
-  padding-left: 16px;
+  padding-left: 16px; 
 
   /*     Font styling    */
   font-size: 17px;
