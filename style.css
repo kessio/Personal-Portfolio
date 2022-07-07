@@ -355,6 +355,100 @@ body {
     float: right;
     font-size: 20px;
   }
+ /* --------------------- 1.4 Mobile Contact Section-----------------------------*/
+  .contact-section {
+    background-image: url(images/contact\ form\ shapes-mobile@2x.fw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 779px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  h4 {
+    padding-left: -213px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    padding-top: 103px;
+  }
+  
+  .contact-text {
+    height: 102px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 48px;
+    border: solid #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+  
+    /*     Font styling    */
+    font-size: 17px;
+    font-weight: 400;
+    color: #172b4d;
+  }
+  
+  textarea {
+    width: 320px;
+    height: 170px;
+    border-radius: 8px;
+  
+    /* Font styling */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #cfd8dc;
+    padding-top: 15px;
+    padding-left: 16px;
+    margin-right: 24px;
+  }
+  
+  .contact-btn {
+    background-color: #fff;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    margin-top: 22px;
+    /* Font styling */
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+  }
+  
+  .contact-btn:hover {
+    background: #6070ff;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 8px;
+  }
 
 }
 
@@ -582,8 +676,10 @@ h2 {
 
 .about-right-col {
   border: #fff 1px solid;
-  width: 40%;
+  width: 50%;
   margin: 10% 0px;
+   display: flex;
+   flex-direction: column;
   
 }
 .about-text {
@@ -612,9 +708,12 @@ line-height: 24px;
 color: #396DF2;
 border: solid 1px #396DF2;
 border-radius: 8px;
-width: 35%;
-padding: 12px;
-text-align: center;
+width: 150px;
+height: 50px;
+padding-top: 16px;
+padding-left: 5px;
+
+
 
 }
 
@@ -661,6 +760,10 @@ a.my-lang{
   line-height: 20px;
   color: #253858;
 }
+/*.others{
+  display: flex;
+  flex-direction: column;
+}*/
 .framework-text{
 font-weight: 500;
 font-size: 20px;
@@ -748,96 +851,4 @@ padding-top: 36px;
 
 
 /* contact section */
-.contact-section {
-  background-image: url(images/contact\ form\ shapes-mobile@2x.fw.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 779px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 40px;
-}
 
-h4 {
-  padding-left: -213px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #fff;
-  padding-top: 103px;
-}
-
-.contact-text {
-  height: 102px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #fff;
-  padding-right: 12%;
-  padding-left: 12%;
-  text-align: center;
-}
-
-form {
-  margin-top: 80px;
-  margin-left: 15px;
-}
-
-input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 320px;
-  height: 48px;
-  border: solid #fff;
-  border-radius: 8px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 16px;
-
-  /*     Font styling    */
-  font-size: 17px;
-  font-weight: 400;
-  color: #172b4d;
-}
-
-textarea {
-  width: 320px;
-  height: 170px;
-  border-radius: 8px;
-
-  /* Font styling */
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #cfd8dc;
-  padding-top: 15px;
-  padding-left: 16px;
-  margin-right: 24px;
-}
-
-.contact-btn {
-  background-color: #fff;
-  padding: 12px 16px 12px 16px;
-  border: none;
-  border-radius: 8px;
-  width: 140px;
-  margin-top: 22px;
-  /* Font styling */
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-}
-
-.contact-btn:hover {
-  background: #6070ff;
-  color: #fff;
-  border: #fff 1px solid;
-  border-radius: 8px;
-}
