@@ -557,8 +557,16 @@ a.view-project-btn{
 }
 .about-flex-container {
   display: flex;
- 
+  flex-direction: row;
+  align-content: flex-start;
   
+}
+.about-col {
+  border: #344563 1px solid;
+  width: 33%;
+  margin: 10% 0px;
+  padding-left: 3%;
+  padding-right: 37px;
 }
 
 h2 {
@@ -567,22 +575,34 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   color: #091E42;
-  margin: 10% 0 0 10%;
+  margin-left: 10%
 
 }
-.about-text {
-  width: 33%;
-  margin-left: 10%;
-}
-.connect, .my-socials, .resume-btn {
-  width: 33%;
-  margin-left: 10%;
-}
+
+
+
+
 .about-right-col {
-  margin-top: 10%;
-  width: 60%;
+  border: #344563 1px solid;
+  width: 50%;
+  margin: 10% 0px;
   
 }
+
+.title-lang {
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  
+} 
+.angle-down {
+  float: right;
+  font-size: 24px;
+  color: #ACB7C3;
+}
+
 
 
 
