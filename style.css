@@ -312,6 +312,10 @@ h2 {
   margin-bottom: 142px;
   background-color: #fff;
 }
+.work-row.row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
 .work-img-desktop {
   height: 448px;
   width: 47%;
