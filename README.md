@@ -14,7 +14,7 @@
 - License
 
 # About the Project
->  This is a single page portfolio website with header, work section, about section and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used in different screens. The contact section of the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used.
+>  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section of the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used.
 
 ### Objectives
 
