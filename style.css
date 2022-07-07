@@ -355,7 +355,36 @@ h3{
 
 }
 .skills-btn {
-  margin-top: 28px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.work-skills {
+  padding: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  margin: 24px 8px 47px 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #6070FF;
+
+}
+.view-project-btn{
+  border: #396df2 solid 1px;
+  padding: 14px 18px;
+  border-radius: 8px;
+
+}
+a.view-project-btn{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color:#396DF2;
+
 }
 
 }
