@@ -302,14 +302,13 @@ h2 {
 .work-row{
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  height: 496px;
   width: 90%;
   border: #DFE1E6 1px solid;
   border-radius: 24px;
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 142px;
   margin-bottom: 142px;
+  padding: 24px;
   background-color: #fff;
 }
 .work-row.row-reverse{
@@ -317,16 +316,26 @@ h2 {
   flex-direction: row-reverse;
 }
 .work-img-desktop {
-  height: 448px;
   width: 47%;
-  padding-left: 24px;
+  height:37%;
+  padding-left: 1%;
   padding-right: 28px;
+
+}
+.work-img-desktop.reverse{
+  padding-left: 24px;
+  padding-right: 22px;
+
+}
+.col.reverse{
+  padding-left: 4%;
 }
 h3{
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #091E42;
+  margin-top: 42px;
 }
 .work-title {
   font-weight: 500;
@@ -382,6 +391,8 @@ align-items: center;
   border: #396df2 solid 1px;
   padding: 14px 18px;
   border-radius: 8px;
+ 
+  
 
 }
 a.view-project-btn{
