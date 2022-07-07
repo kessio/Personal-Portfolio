@@ -209,8 +209,152 @@ body {
     background: #6070ff;
     color: #fff;
   }
+  /* -------------------------  1.3 Mobile About Section -------------------  */
   
+  .about-section {
+    background-image: url(images/Base\ about\ my\ self.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1263px;
+  }
   
+  .about-col {
+    padding: 114px 24px 12px 24px;
+  }
+  
+  .about-text {
+    height: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+  
+  a.connect {
+    padding-top: 12px;
+    padding-bottom: 26px;
+    width: 117px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+  
+  .git {
+    height: 20px;
+    width: 17.99px;
+  }
+  
+  .likee {
+    padding-right: 20px;
+  }
+  
+  .twit {
+    padding-right: 20px;
+  }
+  
+  .resume-btn {
+    padding: 12px;
+    border: solid #396df2 1px;
+    border-radius: 16px;
+    width: 138px;
+    margin-top: 26px;
+  }
+  
+  a .resume-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #396df2;
+    margin-bottom: 60px;
+  }
+  
+  .resume-btn:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+  
+  h5 {
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin-left: 36px;
+  }
+  
+  .angle-down {
+    float: right;
+    margin-right: 64px;
+  }
+  
+  .languages {
+    display: flex;
+    flex-direction: column;
+    padding-left: 36px;
+    padding-top: 12px;
+  }
+  
+  .my-lang {
+    display: flex;
+    width: 303px;
+    height: 66.72px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #f7f7f9;
+  }
+  
+  .my-lang-text {
+    width: 215px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #253858;
+    line-height: 20px;
+    padding: 21px 16px 21px 16px;
+    align-items: center;
+    align-content: space-around;
+  }
+  
+  .lang-img {
+    padding-left: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 48px;
+    height: 48px;
+  }
+  
+  a.my-lang {
+    text-decoration: none;
+  }
+  
+  .others {
+    margin-top: 36px;
+    margin-left: 36px;
+  }
+  
+  .framework {
+    width: 300px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 2px solid #acb7c3;
+  }
+  
+  .framework-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+  
+  .fa-angle-right {
+    float: right;
+    font-size: 20px;
+  }
 
 }
 
@@ -403,7 +547,23 @@ a.view-project-btn{
   color:#396DF2;
 
 }
-
+/*--------------- 2.3 Desktop About Section   -------------------------------*/
+.about-section {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 17%;
+  height: 924px;
+}
+.about-col {
+  display: flex;
+  flex-direction: column;
+}
+.about-right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 }
 
 
@@ -450,150 +610,7 @@ a.view-project-btn{
 
 /* -- About Section    --- */
 
-.about-section {
-  background-image: url(images/Base\ about\ my\ self.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1263px;
-}
 
-.about-col {
-  padding: 114px 24px 12px 24px;
-}
-
-.about-text {
-  height: 144px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
-a.connect {
-  padding-top: 12px;
-  padding-bottom: 26px;
-  width: 117px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
-.git {
-  height: 20px;
-  width: 17.99px;
-}
-
-.likee {
-  padding-right: 20px;
-}
-
-.twit {
-  padding-right: 20px;
-}
-
-.resume-btn {
-  padding: 12px;
-  border: solid #396df2 1px;
-  border-radius: 16px;
-  width: 138px;
-  margin-top: 26px;
-}
-
-a .resume-btn {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  text-align: center;
-  color: #396df2;
-  margin-bottom: 60px;
-}
-
-.resume-btn:hover {
-  background: #6070ff;
-  color: #fff;
-}
-
-h5 {
-  height: 24px;
-  font-weight: 500;
-  font-size: 20px;
-  color: #000;
-  margin-left: 36px;
-}
-
-.angle-down {
-  float: right;
-  margin-right: 64px;
-}
-
-.languages {
-  display: flex;
-  flex-direction: column;
-  padding-left: 36px;
-  padding-top: 12px;
-}
-
-.my-lang {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  margin-top: 24px;
-  border-radius: 8px;
-  background: #f7f7f9;
-}
-
-.my-lang-text {
-  width: 215px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 15px;
-  color: #253858;
-  line-height: 20px;
-  padding: 21px 16px 21px 16px;
-  align-items: center;
-  align-content: space-around;
-}
-
-.lang-img {
-  padding-left: 12px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  width: 48px;
-  height: 48px;
-}
-
-a.my-lang {
-  text-decoration: none;
-}
-
-.others {
-  margin-top: 36px;
-  margin-left: 36px;
-}
-
-.framework {
-  width: 300px;
-  padding-bottom: 24px;
-  padding-top: 24px;
-  border-bottom: 2px solid #acb7c3;
-}
-
-.framework-text {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-}
-
-.fa-angle-right {
-  float: right;
-  font-size: 20px;
-}
 
 /* contact section */
 .contact-section {
