@@ -629,8 +629,11 @@ align-items: center;
   border: #396df2 solid 1px;
   padding: 14px 18px;
   border-radius: 8px;
- 
-  
+
+}
+.view-project-btn.active{
+  background: #6070ff;
+  color: #fff;
 
 }
 a.view-project-btn{
@@ -639,7 +642,10 @@ a.view-project-btn{
   line-height: 24px;
   letter-spacing: 0.03em;
   color:#396DF2;
-
+}
+.view-project-btn:hover {
+  background: #6070ff;
+  color: #fff;
 }
 /*--------------- 2.3 Desktop About Section   -------------------------------*/
 .about-section {
@@ -650,6 +656,7 @@ a.view-project-btn{
   border-top-right-radius: 17%;
   height: 924px;
   
+  
 }
 .about-flex-container {
   display: flex;
@@ -658,7 +665,7 @@ a.view-project-btn{
   
 }
 .about-col {
-  border: #fff 1px solid;
+  border: none;
   width: 33%;
   margin: 10% 0px;
   padding-left: 5%;
@@ -675,7 +682,7 @@ h2 {
 }
 
 .about-right-col {
-  border: #fff 1px solid;
+  border: none;
   width: 50%;
   margin: 10% 0px;
    display: flex;
@@ -712,8 +719,6 @@ width: 150px;
 height: 50px;
 padding-top: 16px;
 padding-left: 5px;
-
-
 
 }
 
@@ -760,10 +765,7 @@ a.my-lang{
   line-height: 20px;
   color: #253858;
 }
-/*.others{
-  display: flex;
-  flex-direction: column;
-}*/
+
 .framework-text{
 font-weight: 500;
 font-size: 20px;
@@ -779,7 +781,6 @@ padding-top: 36px;
 }
 
 .twit {
-  /* twitter icon */
   width: 19.99px;
   height: 19.96px;
   padding-right: 20px;
@@ -799,9 +800,79 @@ padding-top: 36px;
   height: 20px;
   padding-right: 19.9px;
 }
+.contact-section {
+  background-color: #396DF2;
+  background-repeat: no-repeat;
+  border-top-left-radius: 14%;
+  height: 820px;
+  margin-top: -10%;
 
+}
+.contact-subsection{
+  box-sizing: border-box;
+  height:750px;
+  border: none;
+  padding: 30px 20px 20px 20px;
+  background-image: url(images/contact\ form\ background\ shapes.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+ 
+}
+h4{
+  margin-top: 8%; 
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+.contact-text {
+  width: 45%;
+  margin: 2% 30%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+}
+form {
+  margin: 3% 20%;
+  text-align: center;
 
+}
+input {
+  width: 52%;
+  border: 1px solid #CFD8DC;
+  border-radius: 2px;
+  padding: 15px 0px  16px 15px;
+  margin-bottom: 27px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 
+}
+textarea {
+  width: 52%;
+  padding: 15px 0px  16px 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: 1px solid #CFD8DC;
+  border-radius: 2px;
+
+}
+.contact-btn {
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070FF;
+  padding: 12px 16px 12px 16px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+}
 }
 
 
