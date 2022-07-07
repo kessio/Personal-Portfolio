@@ -549,11 +549,13 @@ a.view-project-btn{
 }
 /*--------------- 2.3 Desktop About Section   -------------------------------*/
 .about-section {
+  margin-top: 140px;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-right-radius: 17%;
   height: 924px;
+  
 }
 .about-flex-container {
   display: flex;
@@ -562,10 +564,10 @@ a.view-project-btn{
   
 }
 .about-col {
-  border: #344563 1px solid;
+  border: #fff 1px solid;
   width: 33%;
   margin: 10% 0px;
-  padding-left: 3%;
+  padding-left: 5%;
   padding-right: 37px;
 }
 
@@ -575,18 +577,45 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   color: #091E42;
-  margin-left: 10%
 
 }
 
-
-
-
 .about-right-col {
-  border: #344563 1px solid;
-  width: 50%;
+  border: #fff 1px solid;
+  width: 40%;
   margin: 10% 0px;
   
+}
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-bottom: 16px;
+}
+.connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+
+}
+.my-socials {
+  margin-top: 29px;
+}
+
+.resume-btn {
+margin-top: 40px;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+color: #396DF2;
+border: solid 1px #396DF2;
+border-radius: 8px;
+width: 35%;
+padding: 12px;
+text-align: center;
+
 }
 
 .title-lang {
@@ -594,15 +623,79 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #344563;
-  
+  color: #344563; 
 } 
 .angle-down {
   float: right;
   font-size: 24px;
   color: #ACB7C3;
 }
+.languages{
+  margin-top: 12px;
+}
 
+a.my-lang{
+  background-color: #F7F7F9;
+  border: solid #F7F7F9 1px;
+  display: block;
+  float: left;
+  border-radius: 8px;
+  padding: 12px 62px 60px 12px;
+  margin-right: 12px;
+  margin-bottom: 24px;
+}
+
+.fa-angle-right{
+  float: right;
+  font-size: 24px;
+  color: #ACB7C3;
+}
+.lang-img {
+  width: 48px;
+  height: 48px;
+}
+.my-lang-text {
+  padding-top: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+.framework-text{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #344563;
+padding-top: 36px;
+}
+.border {
+  border: solid 1px #DFE1E6;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.twit {
+  /* twitter icon */
+  width: 19.99px;
+  height: 19.96px;
+  padding-right: 20px;
+
+}
+
+.m {
+  height: 16px;
+  padding-right: 20px;
+}
+
+.git {
+  height: 20px;
+}
+
+.likee {
+  height: 20px;
+  padding-right: 19.9px;
+}
 
 
 
