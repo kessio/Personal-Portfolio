@@ -19,7 +19,6 @@
 ### Objectives
 
 - Understand how to create UIs adaptable to different screen sizes using media queries.
-- Understand how to parse a Figma design to create a UI.
 - Understand how to parse a Figma design to create a UI
 - Use of flexbox to place elements in the page
 - use of images and background to enhance the appearance
