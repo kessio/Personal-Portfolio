@@ -15,13 +15,14 @@ body {
   background-color: #e5e5e5;
 }
 
-/*====================  1.0 == Mobile and small devices media query =====================  */
+/* ====================  1.0 == Mobile and small devices media query =====================  */
 @media only screen and (max-width: 768px) {
   /* ----------------  1.1 Mobile Header  ------------------------------------------------------- */
 
-  .desktop-menu{
+  .desktop-menu {
     display: none;
   }
+
   .container-homepage {
     background-image: url(images/header-background-mobile.svg);
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@ body {
     background-size: cover;
     height: 718px;
   }
-  
+
   .headline {
     background-image: url(images/header-shapes\ mobile.png);
     background-repeat: no-repeat;
@@ -37,16 +38,19 @@ body {
     background-size: cover;
     height: 588px;
   }
+
   a.mobile-menu-item {
     color: #6070ff;
     font-size: 20px;
     margin-right: 19px;
     margin-top: 12px;
   }
+
   .mobile-nav {
     display: flex;
     justify-content: space-between;
   }
+
   .logo {
     /* My Logo */
     width: 76px;
@@ -57,10 +61,11 @@ body {
     margin-left: 24px;
     margin-top: 12px;
   }
-  
+
   a.nav-item {
     text-decoration: none;
   }
+
   .headline-text {
     padding-top: 114px;
     margin-left: 24px;
@@ -73,7 +78,7 @@ body {
     line-height: 24px;
     color: #344563;
   }
-  
+
   h2 {
     margin-bottom: 12px;
     font-weight: 700px;
@@ -83,30 +88,33 @@ body {
     align-items: center;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .socials {
     margin-top: 12px;
     font-weight: 500px;
     font-size: 16px;
     color: #7f8cff;
   }
-   /* -------------------------  1.2 Mobile Work Section -------------------  */
 
-   .desktop-work-section{
+  /* -------------------------  1.2 Mobile Work Section -------------------  */
+
+  .desktop-work-section {
     display: none;
+  }
 
-   }
-   .section-work-mobile {
+  .section-work-mobile {
     margin-top: 112px;
     margin-left: 24px;
     margin-right: 24px;
   }
+
   .row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-   .work-col {
+
+  .work-col {
     box-sizing: border-box;
     background-color: #ffff;
     padding: 16px;
@@ -117,12 +125,12 @@ body {
     height: 552px;
     width: 327px;
   }
-  
+
   .work-img {
     border-radius: 8px;
     margin-bottom: 12px;
   }
-  
+
   .work-col h3 {
     width: 295px;
     height: 36px;
@@ -132,7 +140,7 @@ body {
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   .work-sub {
     width: 35px;
     height: 16px;
@@ -141,7 +149,7 @@ body {
     line-height: 18px;
     color: #344563;
   }
-  
+
   .work-skill {
     width: 88px;
     height: 16px;
@@ -150,12 +158,12 @@ body {
     line-height: 16px;
     color: #7a869a;
   }
-  
+
   .counter {
     margin-left: 12px;
     margin-right: 12px;
   }
-  
+
   .work-experience {
     width: 88px;
     height: 16px;
@@ -164,7 +172,7 @@ body {
     font-size: 13px;
     color: #7a869a;
   }
-  
+
   .text-col {
     width: 295px;
     height: 76px;
@@ -172,7 +180,7 @@ body {
     color: #344563;
     margin-bottom: 12px;
   }
-  
+
   .skills {
     background-color: #ebebff;
     padding: 4px 12px 4px 12px;
@@ -184,7 +192,7 @@ body {
     text-decoration: none;
     color: #6070ff;
   }
-  
+
   .view-btn {
     border: solid #396df2 1px;
     padding: 12px;
@@ -193,7 +201,7 @@ body {
     margin-top: 20px;
     border-radius: 8px;
   }
-  
+
   a .view-btn {
     text-decoration: none;
     align-items: center;
@@ -204,24 +212,25 @@ body {
     letter-spacing: 3%;
     color: #396df2;
   }
-  
+
   .view-btn:hover {
     background: #6070ff;
     color: #fff;
   }
+
   /* -------------------------  1.3 Mobile About Section -------------------  */
-  
+
   .about-section {
     background-image: url(images/Base\ about\ my\ self.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 1263px;
   }
-  
+
   .about-col {
     padding: 114px 24px 12px 24px;
   }
-  
+
   .about-text {
     height: 144px;
     font-weight: 400;
@@ -229,7 +238,7 @@ body {
     line-height: 24px;
     color: #344563;
   }
-  
+
   a.connect {
     padding-top: 12px;
     padding-bottom: 26px;
@@ -241,20 +250,20 @@ body {
     line-height: 24px;
     color: #7f8cff;
   }
-  
+
   .git {
     height: 20px;
     width: 17.99px;
   }
-  
+
   .likee {
     padding-right: 20px;
   }
-  
+
   .twit {
     padding-right: 20px;
   }
-  
+
   .resume-btn {
     padding: 12px;
     border: solid #396df2 1px;
@@ -262,7 +271,7 @@ body {
     width: 138px;
     margin-top: 26px;
   }
-  
+
   a .resume-btn {
     text-decoration: none;
     font-weight: 500;
@@ -273,12 +282,12 @@ body {
     color: #396df2;
     margin-bottom: 60px;
   }
-  
+
   .resume-btn:hover {
     background: #6070ff;
     color: #fff;
   }
-  
+
   h5 {
     height: 24px;
     font-weight: 500;
@@ -286,19 +295,19 @@ body {
     color: #000;
     margin-left: 36px;
   }
-  
+
   .angle-down {
     float: right;
     margin-right: 64px;
   }
-  
+
   .languages {
     display: flex;
     flex-direction: column;
     padding-left: 36px;
     padding-top: 12px;
   }
-  
+
   .my-lang {
     display: flex;
     width: 303px;
@@ -307,7 +316,7 @@ body {
     border-radius: 8px;
     background: #f7f7f9;
   }
-  
+
   .my-lang-text {
     width: 215px;
     height: 24px;
@@ -319,7 +328,7 @@ body {
     align-items: center;
     align-content: space-around;
   }
-  
+
   .lang-img {
     padding-left: 12px;
     padding-top: 9px;
@@ -327,35 +336,36 @@ body {
     width: 48px;
     height: 48px;
   }
-  
+
   a.my-lang {
     text-decoration: none;
   }
-  
+
   .others {
     margin-top: 36px;
     margin-left: 36px;
   }
-  
+
   .framework {
     width: 300px;
     padding-bottom: 24px;
     padding-top: 24px;
     border-bottom: 2px solid #acb7c3;
   }
-  
+
   .framework-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #000;
   }
-  
+
   .fa-angle-right {
     float: right;
     font-size: 20px;
   }
- /* --------------------- 1.4 Mobile Contact Section-----------------------------*/
+
+  /* --------------------- 1.4 Mobile Contact Section----------------------------- */
   .contact-section {
     background-image: url(images/contact\ form\ shapes-mobile@2x.fw.png);
     background-repeat: no-repeat;
@@ -366,7 +376,7 @@ body {
     align-items: center;
     padding-bottom: 40px;
   }
-  
+
   h4 {
     padding-left: -213px;
     font-weight: 700;
@@ -376,7 +386,7 @@ body {
     color: #fff;
     padding-top: 103px;
   }
-  
+
   .contact-text {
     height: 102px;
     font-weight: 400;
@@ -387,12 +397,12 @@ body {
     padding-left: 12%;
     text-align: center;
   }
-  
+
   form {
     margin-top: 80px;
     margin-left: 15px;
   }
-  
+
   input {
     display: flex;
     flex-direction: column;
@@ -404,18 +414,18 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 16px;
-  
+
     /*     Font styling    */
     font-size: 17px;
     font-weight: 400;
     color: #172b4d;
   }
-  
+
   textarea {
     width: 320px;
     height: 170px;
     border-radius: 8px;
-  
+
     /* Font styling */
     font-weight: 400;
     font-size: 18px;
@@ -425,7 +435,7 @@ body {
     padding-left: 16px;
     margin-right: 24px;
   }
-  
+
   .contact-btn {
     background-color: #fff;
     padding: 12px 16px 12px 16px;
@@ -433,6 +443,7 @@ body {
     border-radius: 8px;
     width: 140px;
     margin-top: 22px;
+
     /* Font styling */
     font-weight: 500;
     font-size: 17px;
@@ -442,443 +453,459 @@ body {
     text-align: center;
     color: #6070ff;
   }
-  
+
   .contact-btn:hover {
     background: #6070ff;
     color: #fff;
     border: #fff 1px solid;
     border-radius: 8px;
   }
-
 }
 
 /* ====================== 2.0 === Desktop and Large devices media query  ==================================== */
 
 @media only screen and (min-width: 768px) {
-  /*---------------------------  2.1 Header ---------------------------------- */
+  /* ---------------------------  2.1 Header ---------------------------------- */
   .mobile-nav {
     display: none;
   }
- 
+
   .desktop-menu {
     display: flex;
-    
   }
+
   .desktop-logo {
-    padding: 25px 0px 0px 150px;
+    padding: 25px 0 0 150px;
     width: 76px;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070FF;
+    color: #6070ff;
   }
+
   .desktop-menu-list {
     display: flex;
     margin-left: auto;
     margin-right: 154px;
     align-items: center;
   }
+
   .list-items {
     list-style: none;
-    padding: 25px 32px 0px 32px;
-    
+    padding: 25px 32px 0 32px;
   }
-  .list-items a{
+
+  .list-items a {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     align-items: center;
     color: #344563;
   }
-.container-homepage{
-  background-image: url(images/header\ background\ shape-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 916px;
 
-}
-.headline {
-  background-image: url(images/Header\ bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 712px;
-}
+  .container-homepage {
+    background-image: url(images/header\ background\ shape-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 916px;
+  }
 
-.headline-text {
-  padding-left: 20%;
-  padding-top: 15%;
-  padding-right: 25%;
-  padding-bottom: 20px;
-}
-h2 {
-  height: 122px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
-  color: #091E42;
-  padding-bottom: 12px;
-}
-.socials {
-  padding-top: 30px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7F8CFF;
-  padding-bottom: 30px;
-}
+  .headline {
+    background-image: url(images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 712px;
+  }
 
-/* --------------------------- 2.2  Work Section ---------------------------------------  */
-.section-work-mobile{
-  display: none;
-}
-.desktop-work-section{
-  margin-top: 142px;
-}
-.work-row{
-  display: flex;
-  justify-content: flex-start;
-  width: 90%;
-  border: #DFE1E6 1px solid;
-  border-radius: 24px;
-  margin-left: 5%;
-  margin-right: 142px;
-  margin-bottom: 142px;
-  padding: 24px;
-  background-color: #fff;
-}
-.work-row.row-reverse{
-  display: flex;
-  flex-direction: row-reverse;
-}
-.work-img-desktop {
-  width: 47%;
-  height:37%;
-  padding-left: 1%;
-  padding-right: 28px;
+  .headline-text {
+    padding-left: 20%;
+    padding-top: 15%;
+    padding-right: 25%;
+    padding-bottom: 20px;
+  }
 
-}
-.work-img-desktop.reverse{
-  padding-left: 24px;
-  padding-right: 22px;
+  h2 {
+    height: 122px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    padding-bottom: 12px;
+  }
 
-}
-.col.reverse{
-  padding-left: 4%;
-}
-h3{
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091E42;
-  margin-top: 42px;
-}
-.work-title {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #344563;
-  padding-right: 5px;
-}
-.work-dot {
-  height: 8px;
-  width: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.skills-text {
-  width: 120px;
-  height: 24px;
-  font-weight: 400; 
-  font-size: 18px;
-  line-height: 24px;
-  color: #6B778C
-}
-.work-text {
-  margin-top: 32px;
-  height: 50px;
-  padding-right: 12px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  padding-bottom: 12px;
+  .socials {
+    padding-top: 30px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    padding-bottom: 30px;
+  }
 
-}
-.skills-btn {
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-.work-skills {
-  padding: 4px 12px;
-  background: #EBEBFF;
-  border-radius: 8px;
-  margin: 12px 8px 47px 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 3%;
-  text-align: center;
-  color: #6070FF;
+  /* --------------------------- 2.2  Work Section ---------------------------------------  */
+  .section-work-mobile {
+    display: none;
+  }
 
-}
-.view-project-btn{
-  border: #396df2 solid 1px;
-  padding: 14px 18px;
-  border-radius: 8px;
+  .desktop-work-section {
+    margin-top: 142px;
+  }
 
-}
-.view-project-btn.active{
-  background: #6070ff;
-  color: #fff;
+  .work-row {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    border: #dfe1e6 1px solid;
+    border-radius: 24px;
+    margin-left: 5%;
+    margin-right: 142px;
+    margin-bottom: 142px;
+    padding: 24px;
+    background-color: #fff;
+  }
 
-}
-a.view-project-btn{
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color:#396DF2;
-}
-.view-project-btn:hover {
-  background: #6070ff;
-  color: #fff;
-}
-/*--------------- 2.3 Desktop About Section   -------------------------------*/
-.about-section {
-  margin-top: 140px;
-  background-color: #FFFFFF;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-right-radius: 17%;
-  height: 924px;
-  
-  
-}
-.about-flex-container {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
-  
-}
-.about-col {
-  border: none;
-  width: 33%;
-  margin: 10% 0px;
-  padding-left: 5%;
-  padding-right: 37px;
-}
+  .work-row.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-h2 {
-  max-height: 114px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091E42;
+  .work-img-desktop {
+    width: 47%;
+    height: 37%;
+    padding-left: 1%;
+    padding-right: 28px;
+  }
 
-}
+  .work-img-desktop.reverse {
+    padding-left: 24px;
+    padding-right: 22px;
+  }
 
-.about-right-col {
-  border: none;
-  width: 50%;
-  margin: 10% 0px;
-   display: flex;
-   flex-direction: column;
-  
-}
-.about-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  padding-bottom: 16px;
-}
-.connect {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7F8CFF;
+  .col.reverse {
+    padding-left: 4%;
+  }
 
-}
-.my-socials {
-  margin-top: 29px;
-}
+  h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin-top: 42px;
+  }
 
-.resume-btn {
-margin-top: 40px;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-color: #396DF2;
-border: solid 1px #396DF2;
-border-radius: 8px;
-width: 150px;
-height: 50px;
-padding-top: 16px;
-padding-left: 5px;
+  .work-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+    padding-right: 5px;
+  }
 
-}
+  .work-dot {
+    height: 8px;
+    width: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-.title-lang {
-  height: 24px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #344563; 
-} 
-.angle-down {
-  float: right;
-  font-size: 24px;
-  color: #ACB7C3;
-}
-.languages{
-  margin-top: 12px;
-}
+  .skills-text {
+    width: 120px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
 
-a.my-lang{
-  background-color: #F7F7F9;
-  border: solid #F7F7F9 1px;
-  display: block;
-  float: left;
-  border-radius: 8px;
-  padding: 12px 62px 60px 12px;
-  margin-right: 12px;
-  margin-bottom: 24px;
-}
+  .work-text {
+    margin-top: 32px;
+    height: 50px;
+    padding-right: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding-bottom: 12px;
+  }
 
-.fa-angle-right{
-  float: right;
-  font-size: 24px;
-  color: #ACB7C3;
-}
-.lang-img {
-  width: 48px;
-  height: 48px;
-}
-.my-lang-text {
-  padding-top: 16px;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-}
+  .skills-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-.framework-text{
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #344563;
-padding-top: 36px;
-}
-.border {
-  border: solid 1px #DFE1E6;
-  width: 100%;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
+  .work-skills {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    margin: 12px 8px 47px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #6070ff;
+  }
 
-.twit {
-  width: 19.99px;
-  height: 19.96px;
-  padding-right: 20px;
+  .view-project-btn {
+    border: #396df2 solid 1px;
+    padding: 14px 18px;
+    border-radius: 8px;
+  }
 
-}
+  .view-project-btn.active {
+    background: #6070ff;
+    color: #fff;
+  }
 
-.m {
-  height: 16px;
-  padding-right: 20px;
-}
+  a.view-project-btn {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+  }
 
-.git {
-  height: 20px;
-}
+  .view-project-btn:hover {
+    background: #6070ff;
+    color: #fff;
+  }
 
-.likee {
-  height: 20px;
-  padding-right: 19.9px;
-}
-.contact-section {
-  background-color: #396DF2;
-  background-repeat: no-repeat;
-  border-top-left-radius: 14%;
-  height: 820px;
-  margin-top: -10%;
+  /* --------------- 2.3 Desktop About Section   ------------------------------- */
+  .about-section {
+    margin-top: 140px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 17%;
+    height: 924px;
+  }
 
-}
-.contact-subsection{
-  box-sizing: border-box;
-  height:750px;
-  border: none;
-  padding: 30px 20px 20px 20px;
-  background-image: url(images/contact\ form\ background\ shapes.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-origin: content-box;
- 
-}
-h4{
-  margin-top: 8%; 
-  text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #FFFFFF;
-}
-.contact-text {
-  width: 45%;
-  margin: 2% 30%;
-  text-align: center;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #EBEBFF;
-}
-form {
-  margin: 3% 20%;
-  text-align: center;
+  .about-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
 
+  .about-col {
+    border: none;
+    width: 33%;
+    margin: 10% 0;
+    padding-left: 5%;
+    padding-right: 37px;
+  }
+
+  h6 {
+    max-height: 114px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .about-right-col {
+    border: none;
+    width: 50%;
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding-bottom: 16px;
+  }
+
+  .connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .my-socials {
+    margin-top: 29px;
+  }
+
+  .resume-btn {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    border: solid 1px #396df2;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 5px;
+  }
+
+  .title-lang {
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .angle-down {
+    float: right;
+    font-size: 24px;
+    color: #acb7c3;
+  }
+
+  .languages {
+    margin-top: 12px;
+  }
+
+  a.my-lang {
+    background-color: #f7f7f9;
+    border: solid #f7f7f9 1px;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    padding: 12px 62px 60px 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+  }
+
+  .fa-angle-right {
+    float: right;
+    font-size: 24px;
+    color: #acb7c3;
+  }
+
+  .lang-img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .my-lang-text {
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+  }
+
+  .framework-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 36px;
+  }
+
+  .border {
+    border: solid 1px #dfe1e6;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .twit {
+    width: 19.99px;
+    height: 19.96px;
+    padding-right: 20px;
+  }
+
+  .m {
+    height: 16px;
+    padding-right: 20px;
+  }
+
+  .git {
+    height: 20px;
+  }
+
+  .likee {
+    height: 20px;
+    padding-right: 19.9px;
+  }
+
+  .contact-section {
+    background-color: #396df2;
+    background-repeat: no-repeat;
+    border-top-left-radius: 14%;
+    height: 820px;
+    margin-top: -10%;
+  }
+
+  .contact-subsection {
+    box-sizing: border-box;
+    height: 750px;
+    border: none;
+    padding: 30px 20px 20px 20px;
+    background-image: url(images/contact\ form\ background\ shapes.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  h4 {
+    margin-top: 8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+  }
+
+  .contact-text {
+    width: 45%;
+    margin: 2% 30%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+  }
+
+  form {
+    margin: 3% 20%;
+    text-align: center;
+  }
+
+  input {
+    width: 52%;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    padding: 15px 0  16px 15px;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  textarea {
+    width: 52%;
+    padding: 15px 0  16px 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+  }
+
+  .contact-btn {
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #6070ff;
+    padding: 12px 16px 12px 16px;
+    background: #fff;
+    border-radius: 8px;
+    border: none;
+  }
 }
-input {
-  width: 52%;
-  border: 1px solid #CFD8DC;
-  border-radius: 2px;
-  padding: 15px 0px  16px 15px;
-  margin-bottom: 27px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-
-}
-textarea {
-  width: 52%;
-  padding: 15px 0px  16px 15px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  border: 1px solid #CFD8DC;
-  border-radius: 2px;
-
-}
-.contact-btn {
-  margin-top: 2%;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #6070FF;
-  padding: 12px 16px 12px 16px;
-  background: #FFFFFF;
-  border-radius: 8px;
-  border: none;
-}
-}
-
-
-
-
-
 
 .twitter {
   /* twitter icon */
@@ -906,20 +933,3 @@ textarea {
 .like {
   height: 20px;
 }
-
-
-
-
-
-
-
-/* ------------Work section------------ */
-
-
-
-/* -- About Section    --- */
-
-
-
-/* contact section */
-
