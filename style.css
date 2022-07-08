@@ -494,13 +494,35 @@ body {
     list-style: none;
     padding: 25px 32px 0 32px;
   }
-
+  
   .list-items a {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     align-items: center;
     color: #344563;
+  }
+  .list-items a {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      
+    }
+    
+  }
+  .list-items a:hover{
+    border-bottom: 2px solid #396df2;
+
   }
 
   .container-homepage {
