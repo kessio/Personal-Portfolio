@@ -756,16 +756,6 @@ body {
     color: #fff;
   }
 
- /* a.view-project-btn {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #396df2;
-  }
-*/
-
-
   .title-lang {
     height: 24px;
     font-weight: 500;
@@ -924,6 +914,11 @@ body {
     border-radius: 8px;
     border: none;
   }
+  .contact-btn:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
 }
 
 .twitter {
