@@ -556,7 +556,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .work-row {
     display: flex;
     justify-content: flex-start;
@@ -568,7 +568,6 @@ body {
     padding: 24px;
     background-color: #fff;
     max-width: 1000px;
-    
   }
 
   .work-row.row-reverse {
@@ -738,8 +737,6 @@ body {
     margin-top: 29px;
   }
 
-  
-
   .resume-btn {
     margin-top: 40px;
     font-weight: 500;
@@ -749,7 +746,7 @@ body {
     padding: 14px 18px;
     border-radius: 8px;
     color: #396df2;
-    background-color: #fff ;
+    background-color: #fff;
   }
 
   .resume-btn:hover {
@@ -915,11 +912,11 @@ body {
     border-radius: 8px;
     border: none;
   }
+
   .contact-btn:hover {
     background: #6070ff;
     color: #fff;
   }
-
 }
 
 .twitter {
