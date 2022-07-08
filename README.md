@@ -2,19 +2,23 @@
 
 # Personal-Portfolio
 
-> This project was made with HTML and CSS lintern and proper Github Flow was used. The project contains a navigation bar and hero section user Interface design which was parsed from Figma.The project also contains a section of work showing sample projects, about section and contact section all parsed from Figma. The UI is made for mobile and small devices only. The contact section of the portfolio was done by all the three authors listed below as contributing authors
+# Table of Contents
 
+- About the project
+- Technologies
+- Setup
+- Status
+- Credits
+- Contributions
+- Acknowledgments
+- License
 
-## Built With
-
-- HTML
-- CSS
-- UI design parsed from Figma
-- Technologies used : HTML & CSS linterns
-
+# About the Project
+>  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section of the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used.
 
 ### Objectives
 
+- Understand how to create UIs adaptable to different screen sizes using media queries.
 - Understand how to parse a Figma design to create a UI
 - Use of flexbox to place elements in the page
 - use of images and background to enhance the appearance
@@ -24,10 +28,24 @@
 - Descriptive README files
 - Descriptive pull request title and a summary explaining changes inside
 - Branch names should describe actions taken
-- Follow best practices for HTML and CSS 
+- Follow best practices for HTML and CSS  
 
+## Technologies
 
-## Authors
+- HTML
+- CSS
+- UI design parsed from Figma
+- Technologies used : HTML & CSS linterns
+
+## Setup
+
+- Download or clone the repository
+
+## Status
+
+- Personal Portfolio is still a working in progress project
+
+## Credits
 
 👤 **Author1**
 
@@ -50,7 +68,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
 
@@ -58,4 +76,7 @@ Give a ⭐️ if you like this project!
 
 - Thanks to microverseinc who's directory was helpful in making this project
 
+## License
+
+MIT license @ author
 

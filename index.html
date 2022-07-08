@@ -18,12 +18,23 @@
     <section class="container-homepage">
         <header>
             <nav>
-                <a href="#" class="nav-item">
-                    <div class="logo">My Logo</div>
-                </a>
-                <a href="#" class="menu"><i class="fa fa-bars"></i></a>
+                <div class="mobile-nav">
+                    <a href="#" class="nav-item">
+                        <div class="logo">My Logo</div>
+                    </a>
+                    <a href="#" class="mobile-menu-item"><i class="fa fa-bars"></i></a>
+                </div>
+                <div class="desktop-menu">
+                    <div class="desktop-logo">My Logo</div>
+                    <ul class="desktop-menu-list">
+                        <li class="list-items"><a href="#">Portfolio</a></li>
+                        <li class="list-items"><a href="#">About</a></li>
+                        <li class="list-items"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
+
         <!--- End of Header section   -->
         <section class="headline">
             <div class="headline-tag">
@@ -44,10 +55,10 @@
         <!-- End of headline section   -->
     </section>
     <!--   End of Homepage-section   -->
-    <section class="section-work">
+    <section class="section-work-mobile">
         <div class="row">
             <div class="work-col">
-                <img src="images/Snapshoot%20Portfolio.png" class="work-img" alt="">
+                <img src="images/Snapshoot%20Portfolio-1.png" class="work-img" alt="">
                 <h3>Tonic</h3>
                 <div class="sub-row">
                     <span class="work-sub">CANOPY</span>
@@ -137,10 +148,91 @@
             </div>
         </div>
     </section>
-    <!--   End of Work Section -->
+    <!--   End of Mobile Work Section -->
+    <section class="desktop-work-section">
+        <div class="work-row">
+            <img src="images/Snapshoot%20Portfolio-desktop.png" class="work-img-desktop" alt="">
+              <div class="col-description">
+                <h3>Tonic</h3>
+                <span class="work-title">CANOPY</span>
+                <img src="images/dot.png" class="work-dot" alt="sd">
+                <span class="skills-text">Back End Dev</span>
+                <img src="images/dot.png" class="work-dot" alt="so">
+                <span class="skills-text">2015</span>
+                <p class="work-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <div class="skills-btn">
+                    <a href="#" class="work-skills">html</a>
+                    <a href="#" class="work-skills">css</a>
+                    <a href="#" class="work-skills">javascript</a>
+                </div>
+                <a href="#"  class="view-project-btn">
+                    See Project
+                </a>
+                
+            </div> 
+        </div>
+        <div class="work-row row-reverse">
+                <img src="images/Snapshoot%20Portfolio-2-desktop.png" class="work-img-desktop reverse" alt="fd">
+               <div class="col reverse">
+                <h3 class="reverse">Multi-Post Stories</h3>
+                <span class="work-title reverse">FACEBOOK</span>
+                <img src="images/dot.png" class="work-dot" alt="fg">
+                <span class="skills-text">Full Stack Dev</span>
+                <img src="images/dot.png" class="work-dot" alt="fd">
+                <span class="skills-text">2015</span>
+                <p class="work-text reverse">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                <div class="skills-btn reverse">
+                    <a href="#" class="work-skills reverse">html</a>
+                    <a href="#" class="work-skills reverse">ruby on rails</a>
+                    <a href="#" class="work-skills reverse">css</a>
+                    <a href="#" class="work-skills reverse">javascript</a>
+                </div>
+                <a href="#" class="view-project-btn reverse">See Project</a>  
+            </div> 
+        </div>
+        <div class="work-row">
+                <img src="images/Snapshoot%20Portfolio-3-desktop.png" class="work-img-desktop" alt="">
+               <div class="col">
+                <h3>Facebook 360</h3>
+                <span class="work-title">FACEBOOK</span>
+                <img src="images/dot.png" class="work-dot" alt="dot">
+                <span class="skills-text">Full Stack Dev</span>
+                <img src="images/dot.png" class="work-dot" alt="dot">
+                <span class="skills-text">2015</span>
+                <p class="work-text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..</p>
+                <div class="skills-btn">
+                    <a href="#" class="work-skills">html</a>
+                    <a href="#" class="work-skills">ruby on rails</a>
+                    <a href="#" class="work-skills">css</a>
+                    <a href="#" class="work-skills">javascript</a>
+                </div>
+                <a href="#" class="view-project-btn active">See Project</a>  
+            </div> 
+        </div>
+        <div class="work-row row-reverse">
+                <img src="images/Snapshoot%20Portfolio-4-desktop.png" class="work-img-desktop reverse" alt="">
+               <div class="col reverse">
+                <h3>Uber Navigation</h3>
+                <span class="work-title">Uber</span>
+                <img src="images/dot.png" class="work-dot" alt="fo">
+                <span class="skills-text">Lead Development</span>
+                <img src="images/dot.png" class="work-dot" alt="do">
+                <span class="skills-text">2018</span>
+                <p class="work-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                <div class="skills-btn">
+                    <a href="#" class="work-skills">html</a>
+                    <a href="#" class="work-skills">ruby on rails</a>
+                    <a href="#" class="work-skills">css</a>
+                    <a href="#" class="work-skills">javascript</a>
+                </div>
+                <a href="#" class="view-project-btn">See Project</a>  
+            </div> 
+        </div>
+    </section>
     <section class="about-section">
+        <div class="about-flex-container">
         <div class="about-col">
-            <h2>About <br /> Myself</h2>
+            <h6>About <br /> Myself</h6>
             <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <a href="#" class="connect">LET’S CONNECT</a>
             <div class="my-socials">
@@ -150,29 +242,27 @@
                 <a href="https://twitter.com/kessio_sharon"><img class="twit" src="images/twitter.svg" alt="twitter-icon"></a>
                 <a href="#"><img class="m-m" src="images/m.svg" alt="m-icon"></a>
             </div>
-            <a href="#">
-                <div class="resume-btn">Get My Resume</div>
-            </a>
+            <button class="resume-btn" type="button">Get My Resume</button>   
         </div>
-
+        <div class="about-right-col">
         <h5>
-            <span>Languages</span>
+            <span class="title-lang">Languages</span>
             <span class="angle-down"><i class="fa fa-angle-down"></i></span>
         </h5>
         <div class="languages">
+                <a href="#" class="my-lang">
+                    <div><span class="lang-img"><img src="images/javascript.png" alt=""></span></div>
+                    <span class="my-lang-text">Javascript</span>
+                </a>
             <a href="#" class="my-lang">
-                <span class="lang-img"><img src="images/javascript.png" alt=""></span>
-                <span class="my-lang-text">Javascript</span>
-            </a>
-            <a href="#" class="my-lang">
-                <span class="lang-img"><img src="images/html.png" alt=""></span>
+                <div><span class="lang-img"><img src="images/html.png" alt=""></span></div>
                 <span class="my-lang-text">HTML</span>
             </a>
             <a href="#" class="my-lang">
-                <span class="lang-img"><img src="images/css.png" alt=""></span>
+                <div><span class="lang-img"><img src="images/css.png" alt=""></span></div>
                 <span class="my-lang-text">CSS</span>
             </a>
-        </div>
+            </div>
         <div class="others">
             <div class="framework">
                 <span class="framework-text">Frameworks</span>
@@ -185,10 +275,13 @@
                 <div class="border"></div>
             </div>
         </div>
+    </div>
+    </div>
     </section>
 
         <!-- End of About Section  -->
         <section class="contact-section">
+            <div class="contact-subsection">
                 <h4>Contact Me</h4>
                 <div class="contact-col"></div>
                 <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -206,6 +299,7 @@
                         <button type="submit" class="contact-btn">Get in Touch</button>
                     </div>
                 </form>
+            </div>   
             </section>
        
 </body>
