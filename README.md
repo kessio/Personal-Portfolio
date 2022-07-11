@@ -5,6 +5,7 @@
 # Table of Contents
 
 - About the project
+- Link
 - Technologies
 - Setup
 - Status
@@ -29,6 +30,10 @@
 - Descriptive pull request title and a summary explaining changes inside
 - Branch names should describe actions taken
 - Follow best practices for HTML and CSS  
+
+#Link
+This project has been deployed using github pages. Here is the link to the Personal-Portfolio website:
+https://kessio.github.io/Personal-Portfolio/
 
 ## Technologies
 
