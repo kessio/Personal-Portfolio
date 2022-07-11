@@ -6,6 +6,7 @@
 
 - About the project
 - Link
+- Screenshot
 - Technologies
 - Setup
 - Status
@@ -34,6 +35,13 @@
 
 # Link
 - https://kessio.github.io/Personal-Portfolio/
+
+# Screenshot
+- Below is screenshot of the website on mobile and desktop view
+ ![](images/screenshot-header-laptop.PNG)
+ ![](images/screenshot-work-laptop.PNG)
+ ![](images/mobile-contact.png)
+ ![](images/mobile-header.png)
 
 ## Technologies
 
