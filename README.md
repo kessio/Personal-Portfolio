@@ -5,6 +5,8 @@
 # Table of Contents
 
 - About the project
+- Link
+- Screenshot
 - Technologies
 - Setup
 - Status
@@ -14,7 +16,7 @@
 - License
 
 # About the Project
->  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used.
+>  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used. The Personal-portfolio website has been deployed using github pages, the link is below.
 
 ### Objectives
 
@@ -29,6 +31,17 @@
 - Descriptive pull request title and a summary explaining changes inside
 - Branch names should describe actions taken
 - Follow best practices for HTML and CSS  
+- Deploy the website online using github pages
+
+# Link
+- https://kessio.github.io/Personal-Portfolio/
+
+# Screenshot
+- Below is screenshot of the website on mobile and desktop view
+ ![](images/screenshot-header-laptop.PNG)
+ ![](images/screenshot-work-laptop.PNG)
+ ![](images/mobile-contact.png)
+ ![](images/mobile-header.png)
 
 ## Technologies
 
