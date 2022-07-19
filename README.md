@@ -16,7 +16,7 @@
 - License
 
 # About the Project
->  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML and CSS linters and proper Github Flow was used. The Personal-portfolio website has been deployed using github pages, the link is below.
+>  This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML, CSS and javascript linters and proper Github Flow was used. Javascript was used to toggle the mobile menu. The Personal-portfolio website has been deployed using github pages, the link is below.
 
 ### Objectives
 
@@ -47,6 +47,7 @@
 
 - HTML
 - CSS
+- Javascript
 - UI design parsed from Figma
 - Technologies used : HTML & CSS linterns
 
@@ -75,6 +76,11 @@
 - GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
 - Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
 - LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
+
+👤 **Author4**
+- GitHub: [@tommymarvel](https://github.com/Tommymarvel)
+- Twitter: [@tomiwa_ibironke](https://twitter.com/tomiwa_ibironke)
+
 
 
 ## 🤝 Contributing
