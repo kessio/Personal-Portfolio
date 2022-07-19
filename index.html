@@ -1,307 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,500&family=Poppins:wght@400;500;700&display=swap"
-        rel="stylesheet">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,500&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="container-homepage">
-        <header>
-            <nav>
-                <div class="mobile-nav">
-                    <a href="#" class="nav-item">
-                        <div class="logo">My Logo</div>
-                    </a>
-                    <a href="#" class="mobile-menu-item"><i class="fa fa-bars"></i></a>
-                </div>
-                <div class="desktop-menu">
-                    <div class="desktop-logo">My Logo</div>
-                    <ul class="desktop-menu-list">
-                        <li class="list-items"><a href="#">Portfolio</a></li>
-                        <li class="list-items"><a href="#">About</a></li>
-                        <li class="list-items"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <!--- End of Header section   -->
-        <section class="headline">
-            <div class="headline-tag">
-                <div class="headline-text">
-                    <h2>I'm Sharon <br /> Glad to see you!</h2>
-                    <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                    <a href="#" class="socials">LET’S CONNECT </a>
-                    <div class="social-icons">
-                        <a href="https://twitter.com/kessio_sharon"><img class="twitter" src="images/twitter.svg" alt="kessio_sharon"></a>
-                        <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><img class="m" src="images/m.svg" alt="m-icon"></a>
-                        <a href="https://github.com/kessio"><img class="github" src="images/github.svg" alt="kessio"></a>
-                        <a href="#"><img class="like" src="images/like.svg" alt="like-icon"></a>
-                    </div>
-                </div>
+      <header>
+        <nav>
+          <div class="mobile-nav">
+            <a href="#" class="nav-item">
+              <div class="logo">My Logo</div>
+            </a>
+            <a href="#" class="mobile-menu-item" id="hamburger-menu"><i class="fa fa-bars"></i></a>
+            <div class="mobile-menu" id="mobile-menu-nav">
+              <a href="#" class="mobile-close" id="close-menu-mobile"
+                ><img src="images/Icon.png" alt="close-menu-icon">
+              </a>
+              <ul class="mobile-menu-list">
+                <li class="mobile-list-items"><a href="#mobile-work-section-link">Portfolio</a></li>
+                <li class="mobile-list-items"><a href="#about-section-link">About</a></li>
+                <li class="mobile-list-items"><a href="#contact-section-link">Contact</a></li>
+              </ul>
             </div>
-        </section>
-        <!-- End of headline section   -->
+          </div>
+
+          <div class="desktop-menu">
+            <div class="desktop-logo">My Logo</div>
+            <ul class="desktop-menu-list">
+              <li class="list-items"><a href="#work-section-link">Portfolio</a></li>
+              <li class="list-items"><a href="#">About</a></li>
+              <li class="list-items"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!--- End of Header section   -->
+      <section class="headline">
+        <div class="headline-tag">
+          <div class="headline-text">
+            <h2>
+              I'm Sharon <br />
+              Glad to see you!
+            </h2>
+            <p>
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <a href="#" class="socials">LET’S CONNECT </a>
+            <div class="social-icons">
+              <a href="https://twitter.com/kessio_sharon"
+                ><img
+                  class="twitter"
+                  src="images/twitter.svg"
+                  alt="kessio_sharon"
+              /></a>
+              <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><img class="m" src="images/m.svg" alt="m-icon" /></a>
+              <a href="https://github.com/kessio"
+                ><img class="github" src="images/github.svg" alt="kessio"
+              /></a>
+              <a href="#"
+                ><img class="like" src="images/like.svg" alt="like-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of headline section   -->
     </section>
     <!--   End of Homepage-section   -->
-    <section class="section-work-mobile">
-        <div class="row">
-            <div class="work-col">
-                <img src="images/Snapshoot%20Portfolio-1.png" class="work-img" alt="">
-                <h3>Tonic</h3>
-                <div class="sub-row">
-                    <span class="work-sub">CANOPY</span>
-                    <span class="counter"><img src="images/Counter.png" alt=""></span>
-                    <span class="work-skill">Back End Dev</span>
-                    <span class="counter"><img src="images/Counter.png" alt= ""></span>
-                    <span class="work-experience">2015</span>
-                </div>
-                <div class="text-col">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="sub-row">
-                    <a href="#" class="skills">html</a>
-                    <a href="#" class="skills">css</a>
-                    <a href="#" class="skills">javascript</a>
-                </div>
-                <a href="#">
-                    <div class="view-btn">See Project</div>
-                </a>
-            </div>
-            <div class="work-col">
-                <img src="images/Snapshoot%20Portfolio-2.png" class="work-img" alt="">
-                <h3>Tonic</h3>
-                <div class="sub-row">
-                    <span class="work-sub">CANOPY</span>
-                    <span class="counter"><img src="images/Counter.png" alt=""></span>
-                    <span class="work-skill">Back End Dev</span>
-                    <span class="counter"><img src="images/Counter.png" alt= ""></span>
-                    <span class="work-experience">2015</span>
-                </div>
-                <div class="text-col">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="sub-row">
-                    <a href="#" class="skills">html</a>
-                    <a href="#" class="skills">css</a>
-                    <a href="#" class="skills">javascript</a>
-                </div>
-                <a href="#">
-                    <div class="view-btn">See Project</div>
-                </a>
-            </div>
-            <div class="work-col">
-                <img src="images/Snapshoot%20Portfolio-3.png" class="work-img" alt="">
-                <h3>Tonic</h3>
-                <div class="sub-row">
-                    <span class="work-sub">CANOPY
-          </span>
-                    <span class="counter"><img src="images/Counter.png" alt=""></span>
-                    <span class="work-skill">Back End Dev</span>
-                    <span class="counter"><img src="images/Counter.png" alt= ""></span>
-                    <span class="work-experience">2015</span>
-                </div>
-                <div class="text-col">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="sub-row">
-                    <a href="#" class="skills">html</a>
-                    <a href="#" class="skills">css</a>
-                    <a href="#" class="skills">javascript</a>
-                </div>
-                <a href="#">
-                    <div class="view-btn">See Project</div>
-                </a>
-            </div>
-            <div class="work-col">
-                <img src="images/Snapshoot%20Portfolio-4.png" class="work-img" alt="">
-                <h3>Tonic</h3>
-                <div class="sub-row">
-                    <span class="work-sub">CANOPY</span>
-                    <span class="counter"><img src="images/Counter.png" alt=""></span>
-                    <span class="work-skill">Back End Dev</span>
-                    <span class="counter"><img src="images/Counter.png" alt= ""></span>
-                    <span class="work-experience">2015</span>
-                </div>
-                <div class="text-col">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                </div>
-                <div class="sub-row">
-                    <a href="#" class="skills">html</a>
-                    <a href="#" class="skills">css</a>
-                    <a href="#" class="skills">javascript</a>
-                </div>
-                <a href="#">
-                    <div class="view-btn">See Project</div>
-                </a>
-            </div>
+    <section class="section-work-mobile" id="mobile-work-section-link">
+      <div class="row">
+        <div class="work-col">
+          <img
+            src="images/Snapshoot%20Portfolio-1.png"
+            class="work-img"
+            alt=""
+          />
+          <h3>Tonic</h3>
+          <div class="sub-row">
+            <span class="work-sub">CANOPY</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-skill">Back End Dev</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-experience">2015</span>
+          </div>
+          <div class="text-col">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </div>
+          <div class="sub-row">
+            <a href="#" class="skills">html</a>
+            <a href="#" class="skills">css</a>
+            <a href="#" class="skills">javascript</a>
+          </div>
+          <a href="#">
+            <div class="view-btn">See Project</div>
+          </a>
         </div>
+        <div class="work-col">
+          <img
+            src="images/Snapshoot%20Portfolio-2.png"
+            class="work-img"
+            alt=""
+          />
+          <h3>Tonic</h3>
+          <div class="sub-row">
+            <span class="work-sub">CANOPY</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-skill">Back End Dev</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-experience">2015</span>
+          </div>
+          <div class="text-col">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </div>
+          <div class="sub-row">
+            <a href="#" class="skills">html</a>
+            <a href="#" class="skills">css</a>
+            <a href="#" class="skills">javascript</a>
+          </div>
+          <a href="#">
+            <div class="view-btn">See Project</div>
+          </a>
+        </div>
+        <div class="work-col">
+          <img
+            src="images/Snapshoot%20Portfolio-3.png"
+            class="work-img"
+            alt=""
+          />
+          <h3>Tonic</h3>
+          <div class="sub-row">
+            <span class="work-sub">CANOPY </span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-skill">Back End Dev</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-experience">2015</span>
+          </div>
+          <div class="text-col">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </div>
+          <div class="sub-row">
+            <a href="#" class="skills">html</a>
+            <a href="#" class="skills">css</a>
+            <a href="#" class="skills">javascript</a>
+          </div>
+          <a href="#">
+            <div class="view-btn">See Project</div>
+          </a>
+        </div>
+        <div class="work-col">
+          <img
+            src="images/Snapshoot%20Portfolio-4.png"
+            class="work-img"
+            alt=""
+          />
+          <h3>Tonic</h3>
+          <div class="sub-row">
+            <span class="work-sub">CANOPY</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-skill">Back End Dev</span>
+            <span class="counter"><img src="images/Counter.png" alt="" /></span>
+            <span class="work-experience">2015</span>
+          </div>
+          <div class="text-col">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </div>
+          <div class="sub-row">
+            <a href="#" class="skills">html</a>
+            <a href="#" class="skills">css</a>
+            <a href="#" class="skills">javascript</a>
+          </div>
+          <a href="#">
+            <div class="view-btn">See Project</div>
+          </a>
+        </div>
+      </div>
     </section>
     <!--   End of Mobile Work Section -->
-    <section class="desktop-work-section">
-        <div class="work-row">
-            <img src="images/Snapshoot%20Portfolio-desktop.png" class="work-img-desktop" alt="">
-              <div class="col-description">
-                <h3>Tonic</h3>
-                <span class="work-title">CANOPY</span>
-                <img src="images/dot.png" class="work-dot" alt="sd">
-                <span class="skills-text">Back End Dev</span>
-                <img src="images/dot.png" class="work-dot" alt="so">
-                <span class="skills-text">2015</span>
-                <p class="work-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <div class="skills-btn">
-                    <a href="#" class="work-skills">html</a>
-                    <a href="#" class="work-skills">css</a>
-                    <a href="#" class="work-skills">javascript</a>
-                </div>
-                <a href="#"  class="view-project-btn">
-                    See Project
-                </a>
-                
-            </div> 
+    <section class="desktop-work-section" id="work-section-link">
+      <div class="work-row">
+        <img
+          src="images/Snapshoot%20Portfolio-desktop.png"
+          class="work-img-desktop"
+          alt=""
+        />
+        <div class="col-description">
+          <h3>Tonic</h3>
+          <span class="work-title">CANOPY</span>
+          <img src="images/dot.png" class="work-dot" alt="sd" />
+          <span class="skills-text">Back End Dev</span>
+          <img src="images/dot.png" class="work-dot" alt="so" />
+          <span class="skills-text">2015</span>
+          <p class="work-text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="skills-btn">
+            <a href="#" class="work-skills">html</a>
+            <a href="#" class="work-skills">css</a>
+            <a href="#" class="work-skills">javascript</a>
+          </div>
+          <a href="#" class="view-project-btn"> See Project </a>
         </div>
-        <div class="work-row row-reverse">
-                <img src="images/Snapshoot%20Portfolio-2-desktop.png" class="work-img-desktop reverse" alt="fd">
-               <div class="col reverse">
-                <h3 class="reverse">Multi-Post Stories</h3>
-                <span class="work-title reverse">FACEBOOK</span>
-                <img src="images/dot.png" class="work-dot" alt="fg">
-                <span class="skills-text">Full Stack Dev</span>
-                <img src="images/dot.png" class="work-dot" alt="fd">
-                <span class="skills-text">2015</span>
-                <p class="work-text reverse">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-                <div class="skills-btn reverse">
-                    <a href="#" class="work-skills reverse">html</a>
-                    <a href="#" class="work-skills reverse">ruby on rails</a>
-                    <a href="#" class="work-skills reverse">css</a>
-                    <a href="#" class="work-skills reverse">javascript</a>
-                </div>
-                <a href="#" class="view-project-btn reverse">See Project</a>  
-            </div> 
+      </div>
+      <div class="work-row row-reverse">
+        <img
+          src="images/Snapshoot%20Portfolio-2-desktop.png"
+          class="work-img-desktop reverse"
+          alt="fd"
+        />
+        <div class="col reverse">
+          <h3 class="reverse">Multi-Post Stories</h3>
+          <span class="work-title reverse">FACEBOOK</span>
+          <img src="images/dot.png" class="work-dot" alt="fg" />
+          <span class="skills-text">Full Stack Dev</span>
+          <img src="images/dot.png" class="work-dot" alt="fd" />
+          <span class="skills-text">2015</span>
+          <p class="work-text reverse">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <div class="skills-btn reverse">
+            <a href="#" class="work-skills reverse">html</a>
+            <a href="#" class="work-skills reverse">ruby on rails</a>
+            <a href="#" class="work-skills reverse">css</a>
+            <a href="#" class="work-skills reverse">javascript</a>
+          </div>
+          <a href="#" class="view-project-btn reverse">See Project</a>
         </div>
-        <div class="work-row">
-                <img src="images/Snapshoot%20Portfolio-3-desktop.png" class="work-img-desktop" alt="">
-               <div class="col">
-                <h3>Facebook 360</h3>
-                <span class="work-title">FACEBOOK</span>
-                <img src="images/dot.png" class="work-dot" alt="dot">
-                <span class="skills-text">Full Stack Dev</span>
-                <img src="images/dot.png" class="work-dot" alt="dot">
-                <span class="skills-text">2015</span>
-                <p class="work-text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..</p>
-                <div class="skills-btn">
-                    <a href="#" class="work-skills">html</a>
-                    <a href="#" class="work-skills">ruby on rails</a>
-                    <a href="#" class="work-skills">css</a>
-                    <a href="#" class="work-skills">javascript</a>
-                </div>
-                <a href="#" class="view-project-btn active">See Project</a>  
-            </div> 
+      </div>
+      <div class="work-row">
+        <img
+          src="images/Snapshoot%20Portfolio-3-desktop.png"
+          class="work-img-desktop"
+          alt=""
+        />
+        <div class="col">
+          <h3>Facebook 360</h3>
+          <span class="work-title">FACEBOOK</span>
+          <img src="images/dot.png" class="work-dot" alt="dot" />
+          <span class="skills-text">Full Stack Dev</span>
+          <img src="images/dot.png" class="work-dot" alt="dot" />
+          <span class="skills-text">2015</span>
+          <p class="work-text">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear
+            VR..
+          </p>
+          <div class="skills-btn">
+            <a href="#" class="work-skills">html</a>
+            <a href="#" class="work-skills">ruby on rails</a>
+            <a href="#" class="work-skills">css</a>
+            <a href="#" class="work-skills">javascript</a>
+          </div>
+          <a href="#" class="view-project-btn active">See Project</a>
         </div>
-        <div class="work-row row-reverse">
-                <img src="images/Snapshoot%20Portfolio-4-desktop.png" class="work-img-desktop reverse" alt="">
-               <div class="col reverse">
-                <h3>Uber Navigation</h3>
-                <span class="work-title">Uber</span>
-                <img src="images/dot.png" class="work-dot" alt="fo">
-                <span class="skills-text">Lead Development</span>
-                <img src="images/dot.png" class="work-dot" alt="do">
-                <span class="skills-text">2018</span>
-                <p class="work-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <div class="skills-btn">
-                    <a href="#" class="work-skills">html</a>
-                    <a href="#" class="work-skills">ruby on rails</a>
-                    <a href="#" class="work-skills">css</a>
-                    <a href="#" class="work-skills">javascript</a>
-                </div>
-                <a href="#" class="view-project-btn">See Project</a>  
-            </div> 
+      </div>
+      <div class="work-row row-reverse">
+        <img
+          src="images/Snapshoot%20Portfolio-4-desktop.png"
+          class="work-img-desktop reverse"
+          alt=""
+        />
+        <div class="col reverse">
+          <h3>Uber Navigation</h3>
+          <span class="work-title">Uber</span>
+          <img src="images/dot.png" class="work-dot" alt="fo" />
+          <span class="skills-text">Lead Development</span>
+          <img src="images/dot.png" class="work-dot" alt="do" />
+          <span class="skills-text">2018</span>
+          <p class="work-text">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <div class="skills-btn">
+            <a href="#" class="work-skills">html</a>
+            <a href="#" class="work-skills">ruby on rails</a>
+            <a href="#" class="work-skills">css</a>
+            <a href="#" class="work-skills">javascript</a>
+          </div>
+          <a href="#" class="view-project-btn">See Project</a>
         </div>
+      </div>
     </section>
-    <section class="about-section">
-        <div class="about-flex-container">
+    <section class="about-section" id="about-section-link">
+      <div class="about-flex-container">
         <div class="about-col">
-            <h6>About <br /> Myself</h6>
-            <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <a href="#" class="connect">LET’S CONNECT</a>
-            <div class="my-socials">
-                <a href="https://github.com/kessio"><img class="git" src="images/github.svg" alt="github-icon"></a>
-                <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><img class="likee" src="images/like.svg" alt="like-icon"></a>
-                <a href="https://twitter.com/kessio_sharon"><img class="twit" src="images/twitter.svg" alt="twitter-icon"></a>
-                <a href="#"><img class="m-m" src="images/m.svg" alt="m-icon"></a>
-            </div>
-            <button class="resume-btn" type="button">Get My Resume</button>   
+          <h6>
+            About <br />
+            Myself
+          </h6>
+          <p class="about-text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <a href="#" class="connect">LET’S CONNECT</a>
+          <div class="my-socials">
+            <a href="https://github.com/kessio"
+              ><img class="git" src="images/github.svg" alt="github-icon"
+            /></a>
+            <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a href="#"
+              ><img class="likee" src="images/like.svg" alt="like-icon"
+            /></a>
+            <a href="https://twitter.com/kessio_sharon"
+              ><img class="twit" src="images/twitter.svg" alt="twitter-icon"
+            /></a>
+            <a href="#"><img class="m-m" src="images/m.svg" alt="m-icon" /></a>
+          </div>
+          <button class="resume-btn" type="button">Get My Resume</button>
         </div>
         <div class="about-right-col">
-        <h5>
+          <h5>
             <span class="title-lang">Languages</span>
             <span class="angle-down"><i class="fa fa-angle-down"></i></span>
-        </h5>
-        <div class="languages">
-                <a href="#" class="my-lang">
-                    <div><span class="lang-img"><img src="images/javascript.png" alt=""></span></div>
-                    <span class="my-lang-text">Javascript</span>
-                </a>
+          </h5>
+          <div class="languages">
             <a href="#" class="my-lang">
-                <div><span class="lang-img"><img src="images/html.png" alt=""></span></div>
-                <span class="my-lang-text">HTML</span>
+              <div>
+                <span class="lang-img"
+                  ><img src="images/javascript.png" alt=""
+                /></span>
+              </div>
+              <span class="my-lang-text">Javascript</span>
             </a>
             <a href="#" class="my-lang">
-                <div><span class="lang-img"><img src="images/css.png" alt=""></span></div>
-                <span class="my-lang-text">CSS</span>
+              <div>
+                <span class="lang-img"
+                  ><img src="images/html.png" alt=""
+                /></span>
+              </div>
+              <span class="my-lang-text">HTML</span>
             </a>
-            </div>
-        <div class="others">
+            <a href="#" class="my-lang">
+              <div>
+                <span class="lang-img"
+                  ><img src="images/css.png" alt=""
+                /></span>
+              </div>
+              <span class="my-lang-text">CSS</span>
+            </a>
+          </div>
+          <div class="others">
             <div class="framework">
-                <span class="framework-text">Frameworks</span>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
+              <span class="framework-text">Frameworks</span>
+              <a href="#"><i class="fa fa-angle-right"></i></a>
             </div>
             <div class="border"></div>
             <div class="framework">
-                <span class="framework-text myborder">Skills</span>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-                <div class="border"></div>
+              <span class="framework-text myborder">Skills</span>
+              <a href="#"><i class="fa fa-angle-right"></i></a>
+              <div class="border"></div>
             </div>
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
     </section>
 
-        <!-- End of About Section  -->
-        <section class="contact-section">
-            <div class="contact-subsection">
-                <h4>Contact Me</h4>
-                <div class="contact-col"></div>
-                <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                <form action="https://formspree.io/f/xjvlqgrb" method="POST" class="form-contact">
-                    <div class="form-contact">
-                        <input type="text" name="name" id="name" placeholder="yourname" maxlength="30" required="required">
-                    </div>
-                    <div class="form-contact">
-                        <input type="email" placeholder="youremail@email.com" id="email" required="required">
-                    </div>
-                    <div class="form-contact">
-                        <textarea placeholder="Write your message here" rows="4" cols="50" maxlength="500" required="required"></textarea>
-                    </div>
-                    <div class="form-contact">
-                        <button type="submit" class="contact-btn">Get in Touch</button>
-                    </div>
-                </form>
-            </div>   
-            </section>
-       
-</body>
-
+    <!-- End of About Section  -->
+    <section class="contact-section" id="contact-section-link">
+      <div class="contact-subsection">
+        <h4>Contact Me</h4>
+        <div class="contact-col"></div>
+        <p class="contact-text">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form
+          action="https://formspree.io/f/xjvlqgrb"
+          method="POST"
+          class="form-contact"
+        >
+          <div class="form-contact">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="yourname"
+              maxlength="30"
+              required="required"
+            />
+          </div>
+          <div class="form-contact">
+            <input
+              type="email"
+              placeholder="youremail@email.com"
+              id="email"
+              required="required"
+            />
+          </div>
+          <div class="form-contact">
+            <textarea
+              placeholder="Write your message here"
+              rows="4"
+              cols="50"
+              maxlength="500"
+              required="required"
+            ></textarea>
+          </div>
+          <div class="form-contact">
+            <button type="submit" class="contact-btn">Get in Touch</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
 </html>
