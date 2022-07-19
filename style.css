@@ -23,6 +23,27 @@ body {
     display: none;
   }
 
+  .mobile-menu {
+    position: fixed;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #6070ffef ;
+    transition: 0.3s;
+
+  }
+  .mobile-menu.active{
+    left: 0; 
+  }
+  .mobile-close {
+    position: absolute;
+    right:3rem;
+    top: 2rem;
+    font-size: 2rem;
+    color:#FFFFFF;
+  }
+
+
   .container-homepage {
     background-image: url(images/header-background-mobile.svg);
     background-repeat: no-repeat;
