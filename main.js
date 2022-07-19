@@ -5,9 +5,7 @@ const closemenu = document.getElementById('close-menu-mobile');
 hamburger.addEventListener('click', () => {
   menuNav.classList.toggle('active');
 });
-closemenu.addEventListener('click', () => { 
-  menuNav.classList.remove('active');
-});
+closemenu.addEventListener('click', () => { menuNav.classList.remove('active'); });
 menuItems.forEach((n) => n.addEventListener('click', () => {
   menuNav.classList.remove('active');
 }));
