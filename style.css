@@ -43,6 +43,27 @@ body {
     color:#FFFFFF;
   }
 
+  .mobile-menu-list {
+    position: absolute;
+    top: 14%;
+    left: 0;  
+    margin-left: 28px;
+  }
+  .mobile-list-items {
+    list-style: none;
+    margin-bottom: 40px;
+    transition: all .4s;
+    
+  }
+  .mobile-list-items a {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+   
+  }
+
+
 
   .container-homepage {
     background-image: url(images/header-background-mobile.svg);
