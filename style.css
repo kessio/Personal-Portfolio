@@ -556,144 +556,89 @@ color: #344563;
   }
 
   /* --------------------------- 2.2  Work Section ---------------------------------------  */
-  .section-work-mobile {
-    display: none;
-  }
-
-  .desktop-work-section {
-    margin-top: 142px;
-    display: flex;
+  .container {
+    margin-top: 112px;
     flex-direction: column;
     align-items: center;
-  }
-
-  .work-row {
+    
+}
+.card {
+    box-sizing: border-box;
     display: flex;
-    justify-content: flex-start;
-    border: #dfe1e6 1px solid;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
     border-radius: 24px;
-    margin-bottom: 142px;
-    margin-left: 12px;
-    margin-right: 12px;
-    padding: 24px;
-    background-color: #fff;
-    max-width: 1000px;
-  }
+    margin: 60px;
 
-  .work-row.row-reverse {
+}
+.row-reverse{
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .work-img-desktop {
+    justify-content: flex-start;
+}
+.work-imgdesktop {
     max-width: 47%;
     height: 37%;
-    padding-left: 1%;
-    padding-right: 28px;
-  }
-
-  .work-img-desktop.reverse {
-    padding-left: 24px;
-    padding-right: 22px;
-  }
-
-  .work-img-desktop:hover {
+}
+.work-imgdesktop:hover {
     transform: scale(1.1);
     transition-delay: 300ms;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
-  .col.reverse {
-    padding-left: 4%;
-  }
+.card-text {
+   margin: 0 24px;
 
-  h3 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    margin-top: 42px;
-  }
+ }
 
-  .work-title {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #344563;
-    padding-right: 5px;
-  }
 
-  .work-dot {
-    height: 8px;
-    width: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .skills-text {
-    width: 120px;
-    height: 24px;
+.head-tags {
+    display: flex;
+    flex-direction: row;
+    
+}
+.tags {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6b778c;
-  }
+    color: #6B778C;
+    padding: 0 12px 0 6px;
 
-  .work-text {
-    margin-top: 32px;
-    margin-bottom: 12px;
-    height: 50px;
-    padding-right: 12px;
+}
+
+.counter {
+  padding-top: 6px;
+  width: 8px;
+  height: 8px;
+}
+.description {
+    padding-top: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    padding-bottom: 12px;
-  }
-
-  .skills-btn {
+}
+.tech-section {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+    margin-top: 24px;
+   
 
-  .work-skills {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-    margin: 12px 8px 47px 8px;
+}
+.techs {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 3%;
-    text-align: center;
-    color: #6070ff;
-  }
-
-  .view-project-btn {
-    border: #396df2 solid 1px;
-    padding: 14px 18px;
-    border-radius: 8px;
-  }
-
-  .view-project-btn.active {
-    background: #6070ff;
-    color: #fff;
-  }
-
-  a.view-project-btn {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396df2;
-  }
-
-  .view-project-btn:hover {
-    background: #6070ff;
-    color: #fff;
-  }
+    color: #6070FF;
+    padding: 4px 12px;
+    background: #EBEBFF;
+    border-radius: 8px;
+    margin-right: 8px;
+}
 
   /* --------------- 2.3 Desktop About Section   ------------------------------- */
   .about-section {
