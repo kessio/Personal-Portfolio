@@ -24,7 +24,7 @@ button.view-project {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .view-project.active {
@@ -68,14 +68,13 @@ button.view-project {
   bottom: 1rem;
   padding: 16px;
   gap: 12px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   max-height: 100%;
   z-index: 11;
   overflow-y: scroll;
 }
-
 
 .overlay {
   display: none;
@@ -85,7 +84,7 @@ button.view-project {
   height: 100%;
   width: 100%;
   z-index: 10;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
   opacity: 0.9;
 }
 
@@ -113,7 +112,6 @@ button.closebutton {
   font-size: 16px;
   line-height: 30px;
   color: #344563;
-
 }
 
 .techss {
@@ -121,9 +119,9 @@ button.closebutton {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   margin: 30px 6px 0 0;
 }
@@ -131,7 +129,6 @@ button.closebutton {
 /* ====================  1.0 == Mobile and small devices media query =====================  */
 
 @media only screen and (max-width: 768px) {
-
   /* ----------------  1.1 Mobile Header  ------------------------------------------------------- */
   .desktop-menu {
     display: none;
@@ -264,8 +261,8 @@ button.closebutton {
     align-items: center;
     padding: 16px;
     gap: 12px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-bottom: 88px;
   }
@@ -290,15 +287,14 @@ button.closebutton {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
-
+    color: #172b4d;
   }
 
   .tags {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7A869A;
+    color: #7a869a;
     margin-bottom: 20px;
   }
 
@@ -307,7 +303,6 @@ button.closebutton {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-
   }
 
   .tech-section {
@@ -322,9 +317,9 @@ button.closebutton {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #6070ff;
     padding: 4px 12px;
-    background: #EBEBFF;
+    background: #ebebff;
     border-radius: 8px;
     margin-right: 8px;
   }
@@ -575,7 +570,6 @@ button.closebutton {
 /* ====================== 2.0 === Desktop and Large devices media query  ==================================== */
 
 @media only screen and (min-width: 768px) {
-
   /* ---------------------------  2.1 Header ---------------------------------- */
   .mobile-nav {
     display: none;
@@ -684,18 +678,16 @@ button.closebutton {
     margin-top: 112px;
     flex-direction: column;
     align-items: center;
-
   }
 
   .card {
     box-sizing: border-box;
     display: flex;
     padding: 16px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin: 60px;
-
   }
 
   .row-reverse {
@@ -718,7 +710,6 @@ button.closebutton {
 
   .card-text {
     margin: 24px 24px;
-
   }
 
   .h3tags {
@@ -726,22 +717,20 @@ button.closebutton {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .head-tags {
     display: flex;
     flex-direction: row;
-
   }
 
   .tags {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     padding: 0 12px 0 6px;
-
   }
 
   .counter {
@@ -763,8 +752,6 @@ button.closebutton {
     flex-direction: row;
     align-items: center;
     margin-top: 24px;
-
-
   }
 
   .techs {
@@ -772,9 +759,9 @@ button.closebutton {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #6070ff;
     padding: 4px 12px;
-    background: #EBEBFF;
+    background: #ebebff;
     border-radius: 8px;
     margin-right: 8px;
   }
