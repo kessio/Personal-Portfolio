@@ -55,3 +55,186 @@ const portfolioDetails = [
    
   }
 ]
+
+const portfolio = document.createElement('div');
+portfolio.className = 'container';
+
+
+const Card = (work) => {
+  const card = document.createElement('div');
+  if(work.id % 2 !==0){
+    card.className = 'card';
+  }else {
+    card.className = 'card row-reverse';
+  }
+  
+  const img = document.createElement('img');
+  img.setAttribute('src', work.img);
+  img.className = 'work-imgdesktop';
+  card.appendChild(img);
+
+  const divtext = document.createElement('div');
+  divtext.className = 'card-text'
+  card.append(divtext);
+
+  const h3 = document.createElement('h3');
+  h3.className = 'h3tag'
+  h3.innerText = work.name;
+  divtext.append(h3);
+
+  const headTags = document.createElement('div')
+  headTags.className = 'head-tags'
+  divtext.append(headTags);
+
+  for(let t=0; t< (work.Tags).length;t++){
+    const tagsSpan = document.createElement('div')
+    tagsSpan.className = 'tags'
+    tagsSpan.innerHTML = work.Tags[t]
+    headTags.append(tagsSpan)
+
+    if([t] % 2 === 0){
+
+      const img = document.createElement('img');
+     img.setAttribute('src', 'images/counter.png');
+     img.setAttribute('alt','null')
+     img.className = 'counter'
+    headTags.appendChild(img);
+    } 
+}
+  const p = document.createElement('p');
+  p.innerText = work.description;
+  p.className = 'description'
+  divtext.append(p);
+  
+  const technologies = document.createElement('div');
+  technologies.className = 'tech-section';
+  divtext.append(technologies)
+  for(let s=0; s< (work.technologies).length;s++){
+    const techspan = document.createElement('span');
+    techspan.className = 'techs';
+    techspan.innerText = work.technologies[s];
+   technologies.append(techspan);
+  }
+
+  const projectBtn = document.createElement('button');
+  projectBtn.setAttribute('a','')
+  projectBtn.setAttribute('href','#')
+  projectBtn.setAttribute('id',`my-${work.id}`)
+  projectBtn.className = 'view-project popup'
+  projectBtn.innerHTML = 'See Project'
+  divtext.append(projectBtn);
+
+  return card;
+};
+
+
+for(let work =0; work< portfolioDetails.length;work++){
+    portfolio.appendChild(Card(portfolioDetails[work]));
+    
+}
+
+const workSection = document.body.querySelector('#projects-section');
+workSection.appendChild(portfolio);
+
+/* Modal */
+
+const popUp = document.createElement('div');
+popUp.className = 'container-popup1';
+
+
+ const modalWindow = (modal) => {
+  const popUpRow = document.createElement('div');
+  popUpRow.className = 'popup-row';
+  popUpRow.setAttribute('id',`pop-${modal.id}`)
+const modalHead = document.createElement('div');
+modalHead.className = 'popup-head';
+popUpRow.append(modalHead)
+const h3 = document.createElement('h3');
+h3.innerText = modal.name;
+modalHead.append(h3);
+
+ const closebtn = document.createElement('button')
+ closebtn.className ='closebutton'
+ closebtn.setAttribute('id',`cl-${modal.id}`)
+ popUpRow.appendChild(closebtn);
+
+  const imgClose = document.createElement('img');
+  imgClose.setAttribute('src','images/close-popup.png');
+  imgClose.className = 'close-popup'
+  imgClose.setAttribute('alt','close popup icon')
+  closebtn.appendChild(imgClose);
+
+  const headTags = document.createElement('div')
+  headTags.className = 'head-tags'
+  modalHead.append(headTags);
+  for(let t=0; t< (modal.Tags).length;t++){
+    const tagsSpan = document.createElement('div')
+    tagsSpan.className = 'tags'
+    tagsSpan.innerHTML = modal.Tags[t]
+    headTags.append(tagsSpan)
+    if([t] % 2 === 0){
+    const img = document.createElement('img');
+     img.setAttribute('src', 'images/counter.png');
+     img.setAttribute('alt','null')
+     img.className = 'counter'
+    headTags.appendChild(img);
+    } 
+ }
+ const img = document.createElement('img');
+  img.setAttribute('src', modal.img);
+  img.className = 'work-img popupimg';
+  popUpRow.appendChild(img);
+
+  const details = document.createElement('div');
+  details.className = 'row-details'
+  popUpRow.append(details)
+  const p = document.createElement('p');
+  p.innerText = modal.moreDetails;
+  p.className = 'description popup'
+  details.append(p);
+
+  const technologies = document.createElement('div');
+  technologies.className = 'tech-section-modal';
+  details.append(technologies)
+  for(let s=0; s< (modal.technologies).length;s++){
+    const techspan = document.createElement('span');
+    techspan.className = 'techss';
+    techspan.innerText = modal.technologies[s];
+   technologies.append(techspan);
+  }
+  
+  const buttons = document.createElement('div');
+  details.append(buttons);
+
+  const projectBtn = document.createElement('button');
+  projectBtn.setAttribute('a','')
+  projectBtn.setAttribute('href','#')
+  projectBtn.className = 'view-project'
+  projectBtn.innerHTML = 'See Live'
+  buttons.append(projectBtn);
+
+  const liveIcon = document.createElement('img');
+  liveIcon.setAttribute('src','images/icon-live.svg');
+  projectBtn.append(liveIcon);
+
+  const projectBtn2 = document.createElement('button');
+  projectBtn2.setAttribute('a','')
+  projectBtn2.setAttribute('href','#')
+  projectBtn2.className = 'view-project source'
+  projectBtn2.innerHTML = 'See Source'
+  buttons.append(projectBtn2);
+
+  const sourceIcon = document.createElement('img');
+  sourceIcon.setAttribute('src','images/vector.png');
+  projectBtn2.append(sourceIcon);
+
+  return popUpRow;
+ }
+
+
+  for(let modal =0; modal< portfolioDetails.length;modal++){
+    popUp.appendChild(modalWindow(portfolioDetails[modal]));
+    
+}
+const modalSection = document.body.querySelector('#modal-section');
+modalSection.appendChild(popUp);
