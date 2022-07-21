@@ -103,6 +103,15 @@ button.view-project {
   color: #344563;
 
  }
+
+ .validation-error {
+  background-color: #fff;
+  margin-top: 20px;
+  width: 40%;
+  padding: 10px 25px;
+  opacity: 0.9;
+}
+
    .techss {
     font-weight: 500;
     font-size: 12px;
