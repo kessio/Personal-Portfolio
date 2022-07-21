@@ -16,108 +16,122 @@ body {
 }
 
 button.view-project {
-    margin-top: 30px;
-    background-color: #fff;
-    padding: 12px;
-    border: 1px solid #396df2;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    color: #396DF2;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396DF2;
 }
-.view-project.active {
-    background: #6070ff;
-    color: #fff;
-  }
-  .view-project:hover {
-    background: #6070ff;
-    color: #fff;
-  }
-   /* popup start  */
-   .container-popup1 {
-    position: relative;
-  }
-  #pop-1 {
-    display: none;
-  }
-  #pop-2 {
-    display: none;
-  }
-  #pop-3 {
-    display: none;
-  }
-  #pop-4 {
-    display: none;
-  }
-  .popup-row {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 5%;
-    right: 10%;
-    left: 10%;
-    bottom: 1rem;
-    padding: 16px;
-    gap: 12px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
-    border-radius: 16px;
-    max-height: 100%;
-    z-index: 11;
-    overflow-y: scroll;
-  }
 
-  
-  .overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    background-color:#C1C7D0;
-    opacity: 0.9;  
-  }
-  button.closebutton{
-    position: absolute;
-    right: 4%;
-    top: 3%;
-    background-color: #fff;
-    border: none;
-    width: 12px;
-    height: 12px;
-  }
-  .work-img.popupimg {
-    max-width: 60%;
-    margin: 3% 3%;
-  }
-  .view-project.source {
-    margin-left: 4px;
-  }
- .description.popup {
+.view-project.active {
+  background: #6070ff;
+  color: #fff;
+}
+
+.view-project:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+/* popup start  */
+.container-popup1 {
+  position: relative;
+}
+
+#pop-1 {
+  display: none;
+}
+
+#pop-2 {
+  display: none;
+}
+
+#pop-3 {
+  display: none;
+}
+
+#pop-4 {
+  display: none;
+}
+
+.popup-row {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 5%;
+  right: 10%;
+  left: 10%;
+  bottom: 1rem;
+  padding: 16px;
+  gap: 12px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  max-height: 100%;
+  z-index: 11;
+  overflow-y: scroll;
+}
+
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: #C1C7D0;
+  opacity: 0.9;
+}
+
+button.closebutton {
+  position: absolute;
+  right: 4%;
+  top: 3%;
+  background-color: #fff;
+  border: none;
+  width: 12px;
+  height: 12px;
+}
+
+.work-img.popupimg {
+  max-width: 60%;
+  margin: 3% 3%;
+}
+
+.view-project.source {
+  margin-left: 4px;
+}
+
+.description.popup {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #344563;
 
- }
-   .techss {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070FF;
-    padding: 4px 12px;
-    background: #EBEBFF;
-    border-radius: 8px;
-    margin: 30px 6px 0 0;
-   }
+}
+
+.techss {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+  padding: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  margin: 30px 6px 0 0;
+}
 
 /* ====================  1.0 == Mobile and small devices media query =====================  */
 
 @media only screen and (max-width: 768px) {
+
   /* ----------------  1.1 Mobile Header  ------------------------------------------------------- */
   .desktop-menu {
     display: none;
@@ -237,11 +251,12 @@ button.view-project {
   }
 
   /* -------------------------  1.2 Mobile Work Section -------------------  */
-  .container{
+  .container {
     margin-top: 112px;
     margin-left: 24px;
     margin-right: 24px;
   }
+
   .card {
     box-sizing: border-box;
     display: flex;
@@ -253,58 +268,66 @@ button.view-project {
     border: 1px solid #DFE1E6;
     border-radius: 16px;
     margin-bottom: 88px;
-}
-.work-imgdesktop {
-  max-width: 90%;
-  height: 50%;
-}
-.head-tags {
-  display: flex;
-}
-.counter {
-  width: 8px;
-  height: 8px;
-  padding-top: 0.3rem;
-}
-.h3tag {
-margin-bottom: 20px;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
+  }
 
-}
-.tags {
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
-margin-bottom: 20px;
-}
-.description {
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
+  .work-imgdesktop {
+    max-width: 90%;
+    height: 50%;
+  }
 
-}
-.tech-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 24px;
-}
-.techs {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070FF;
-  padding: 4px 12px;
-  background: #EBEBFF;
-  border-radius: 8px;
-  margin-right: 8px;
-}
+  .head-tags {
+    display: flex;
+  }
+
+  .counter {
+    width: 8px;
+    height: 8px;
+    padding-top: 0.3rem;
+  }
+
+  .h3tag {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+
+  }
+
+  .tags {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7A869A;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+
+  }
+
+  .tech-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .techs {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+    padding: 4px 12px;
+    background: #EBEBFF;
+    border-radius: 8px;
+    margin-right: 8px;
+  }
 
   /* -------------------------  1.3 Mobile About Section -------------------  */
   .about-section {
@@ -552,6 +575,7 @@ color: #344563;
 /* ====================== 2.0 === Desktop and Large devices media query  ==================================== */
 
 @media only screen and (min-width: 768px) {
+
   /* ---------------------------  2.1 Header ---------------------------------- */
   .mobile-nav {
     display: none;
@@ -660,9 +684,10 @@ color: #344563;
     margin-top: 112px;
     flex-direction: column;
     align-items: center;
-    
-}
-.card {
+
+  }
+
+  .card {
     box-sizing: border-box;
     display: flex;
     padding: 16px;
@@ -671,71 +696,78 @@ color: #344563;
     border-radius: 24px;
     margin: 60px;
 
-}
+  }
 
-.row-reverse{
+  .row-reverse {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-}
-.work-imgdesktop {
+  }
+
+  .work-imgdesktop {
     max-width: 47%;
     height: 37%;
-}
-.work-imgdesktop:hover {
+  }
+
+  .work-imgdesktop:hover {
     transform: scale(1.1);
     transition-delay: 300ms;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
-.card-text {
-   margin: 24px 24px;
+  .card-text {
+    margin: 24px 24px;
 
- }
-.h3tags {
-margin-top: 20px;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #091E42;
-}
+  }
 
-.head-tags {
+  .h3tags {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
+  .head-tags {
     display: flex;
     flex-direction: row;
-    
-}
-.tags {
+
+  }
+
+  .tags {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #6B778C;
     padding: 0 12px 0 6px;
 
-}
+  }
 
-.counter {
-  padding-top: 6px;
-  width: 8px;
-  height: 8px;
-}
-.description {
+  .counter {
+    padding-top: 6px;
+    width: 8px;
+    height: 8px;
+  }
+
+  .description {
     padding-top: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-}
-.tech-section {
+  }
+
+  .tech-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 24px;
-   
 
-}
-.techs {
+
+  }
+
+  .techs {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -745,7 +777,7 @@ color: #091E42;
     background: #EBEBFF;
     border-radius: 8px;
     margin-right: 8px;
-}
+  }
 
   /* --------------- 2.3 Desktop About Section   ------------------------------- */
   .about-section {
