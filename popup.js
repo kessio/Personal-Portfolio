@@ -238,3 +238,31 @@ modalHead.append(h3);
 }
 const modalSection = document.body.querySelector('#modal-section');
 modalSection.appendChild(popUp);
+
+const overlay = document.querySelector('.overlay');
+const modal1 = document.getElementById('pop-1')
+const modal2 = document.getElementById('pop-2')
+const modal3 = document.getElementById('pop-3')
+const modal4 = document.getElementById('pop-4')
+const openModal = (event) => {
+  if (event.target.nodeName === 'BUTTON') {
+    const projectid = event.target.id
+   if(projectid === 'my-1'){
+    modal1.style.display = 'block';
+    overlay.style.display = 'inline-block';
+   }
+   else if(projectid === 'my-2'){
+    modal2.style.display = 'block';
+    overlay.style.display = 'inline-block';
+
+   } else if(projectid === 'my-3'){
+    modal3.style.display = 'block';
+    overlay.style.display = 'inline-block';
+   } else if(projectid === 'my-4'){
+    modal4.style.display = 'block';
+    overlay.style.display = 'inline-block';
+   } 
+ 
+  }
+}
+window.addEventListener('click', openModal);
