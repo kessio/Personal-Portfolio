@@ -15,6 +15,106 @@ body {
   background-color: #e5e5e5;
 }
 
+button.view-project {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396DF2;
+}
+.view-project.active {
+    background: #6070ff;
+    color: #fff;
+  }
+  .view-project:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+   /* popup start  */
+   .container-popup1 {
+    position: relative;
+  }
+  #pop-1 {
+    display: none;
+  }
+  #pop-2 {
+    display: none;
+  }
+  #pop-3 {
+    display: none;
+  }
+  #pop-4 {
+    display: none;
+  }
+  .popup-row {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    right: 10%;
+    left: 10%;
+    bottom: 1rem;
+    padding: 16px;
+    gap: 12px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    max-height: 100%;
+    z-index: 11;
+    overflow-y: scroll;
+  }
+
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color:#C1C7D0;
+    opacity: 0.9;  
+  }
+  button.closebutton{
+    position: absolute;
+    right: 4%;
+    top: 3%;
+    background-color: #fff;
+    border: none;
+    width: 12px;
+    height: 12px;
+  }
+  .work-img.popupimg {
+    max-width: 60%;
+    margin: 3% 3%;
+  }
+  .view-project.source {
+    margin-left: 8px;
+  }
+ .description.popup {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+
+ }
+   .techss {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+    padding: 4px 12px;
+    background: #EBEBFF;
+    border-radius: 8px;
+    margin: 30px 6px 0 0;
+   }
+
 /* ====================  1.0 == Mobile and small devices media query =====================  */
 
 @media only screen and (max-width: 768px) {
