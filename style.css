@@ -145,9 +145,6 @@ button.closebutton {
   animation: slidein 2s;
 }
 
-
-
-
 /* ====================  1.0 == Mobile and small devices media query =====================  */
 
 @media only screen and (max-width: 768px) {
