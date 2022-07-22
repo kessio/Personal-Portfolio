@@ -1013,3 +1013,21 @@ body {
 .like {
   height: 20px;
 }
+
+
+.try-me {
+  width: 100%;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.418);
+  height: 80%;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.try-me.active {
+  display: flex;
+}
