@@ -127,12 +127,6 @@ button.closebutton {
 }
 
 .validation-error {
-  display: none;
-  position: absolute;
-  bottom: 1rem;
-  left: 0.9rem;
-  right: 1rem;
-  margin-right: 18px;
   background-color: rgba(221, 46, 46, 0.897);
   margin-top: 20px;
   width: fit-content;
@@ -502,6 +496,14 @@ button.closebutton {
     position: relative;
   }
 
+  .validation-error {
+    position: absolute;
+    bottom: 1rem;
+    left: 0.9rem;
+    right: 1rem;
+    margin-right: 18px;
+  }
+
   h4 {
     padding-left: -213px;
     font-weight: 700;
@@ -796,6 +798,11 @@ button.closebutton {
     height: 924px;
   }
 
+  .form-contact {
+    display: block;
+    width: 100%;
+  }
+
   .about-flex-container {
     display: flex;
     flex-direction: row;
@@ -964,6 +971,16 @@ button.closebutton {
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .validation-error {
+    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   h4 {
@@ -991,7 +1008,7 @@ button.closebutton {
   }
 
   input {
-    width: 52%;
+    width: 100%;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     padding: 15px 0 16px 15px;
@@ -1002,7 +1019,7 @@ button.closebutton {
   }
 
   textarea {
-    width: 52%;
+    width: 100%;
     padding: 15px 0 16px 15px;
     font-weight: 400;
     font-size: 17px;
