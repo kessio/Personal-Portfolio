@@ -195,11 +195,12 @@
           <div class="form-contact">
             <input
               type="text"
-              name="name"
+              name="fullname"
               id="name"
               placeholder="yourname"
               maxlength="30"
               required="required"
+              value=''
             />
           </div>
           <div class="form-contact">
@@ -208,6 +209,8 @@
               placeholder="youremail@email.com"
               id="email"
               required="required"
+              name="email"
+              value=''
             />
           </div>
           <div class="form-contact">
@@ -215,7 +218,9 @@
               placeholder="Write your message here"
               rows="4"
               cols="50"
+              id="comment"
               maxlength="500"
+            name="comment"
               required="required"
             ></textarea>
           </div>
@@ -229,5 +234,6 @@
     <script src="form-validation.js"></script>
     <script src="main.js"></script>
     <script src="popup.js"></script>
+    <script src="storage.js"></script>
   </body>
 </html>
