@@ -26,6 +26,10 @@ if (getFormData) {
   userName.value = getFormData.fullName;
   userEmail.value = getFormData.email;
   userMessage.value = getFormData.userMessage;
+}else {
+  userName.value = '';
+  userEmail.value = '';
+  userMessage.value = '';
 }
 
 
