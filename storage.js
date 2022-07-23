@@ -13,4 +13,15 @@ Array.from(form.elements).forEach((input) => {
       localStorage.setItem('formData', JSON.stringify(formData));
     });
   });
-  
+  let getFormData = localStorage.getItem('formData');
+  if (getFormData) {
+    getFormData = JSON.parse(getFormData);
+    userName.value = getFormData.fullName;
+    userEmail.value = getFormData.email;
+   // console.log(userName)
+    userMessage.value = getFormData.userMessage;
+  } else {
+    userName.value = '';
+    userEmail.value = '';
+    userMessage.value = '';
+  }
