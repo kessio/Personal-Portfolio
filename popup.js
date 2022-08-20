@@ -1,15 +1,15 @@
 const portfolioDetails = [
   {
     id: 1,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or  sign-ups required',
-    moreDetails: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    img: 'images/Snapshoot%20Portfolio-desktop.png',
-    mobileImg: 'images/Snapshoot%20Portfolio-1.png',
-    technologies: ['html', 'css', 'ruby', 'javascript'],
-    Tags: ['Canopy', 'Back End Dev', '2015'],
+    name: 'School Website',
+    description: 'This is a coding Bootcamp school website that shocases services the school offers and a about us page',
+    moreDetails: 'This website was created using HTML5, CSS and JavaScript. Javascript was used to dynamically display testimonials section on the DOM. JavaSCript was also used to display and hide the navigation menu on small devices.',
+    img: 'images/home-banner.png',
+    mobileImg: 'images/mobile-home-banner.png',
+    technologies: ['html', 'css', 'javascript'],
+    Tags: ['Website', 'Front End Dev', '2022'],
     tagsImg: ['dot.png', 'dot.png'],
-    liveLink: ['#'],
+    liveLink: ['https://kessio-microverse-projects.github.io/capstoneProject-1/'],
     sourceLink: ['#'],
   },
   {
@@ -198,9 +198,9 @@ const modalWindow = (modal) => {
   const buttons = document.createElement('div');
   details.append(buttons);
 
-  const projectBtn = document.createElement('button');
-  projectBtn.setAttribute('a', '');
-  projectBtn.setAttribute('href', '#');
+  const projectBtn = document.createElement('a');
+  projectBtn.setAttribute('href', 'https://kessio-microverse-projects.github.io/capstoneProject-1/');
+  projectBtn.setAttribute('target', 'blank');
   projectBtn.className = 'view-project';
   projectBtn.innerHTML = 'See Live';
   buttons.append(projectBtn);
@@ -209,9 +209,9 @@ const modalWindow = (modal) => {
   liveIcon.setAttribute('src', 'images/icon-live.svg');
   projectBtn.append(liveIcon);
 
-  const projectBtn2 = document.createElement('button');
-  projectBtn2.setAttribute('a', '');
-  projectBtn2.setAttribute('href', '#');
+  const projectBtn2 = document.createElement('a');
+  projectBtn2.setAttribute('href', 'https://github.com/kessio/Personal-Portfolio');
+  projectBtn2.setAttribute('target', 'blank');
   projectBtn2.className = 'view-project source';
   projectBtn2.innerHTML = 'See Source';
   buttons.append(projectBtn2);
