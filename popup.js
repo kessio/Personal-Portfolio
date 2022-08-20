@@ -90,7 +90,7 @@ const Card = (work) => {
 
     if ([t] % 2 === 0) {
       const img = document.createElement('img');
-      img.setAttribute('src', 'images/counter.png');
+      img.setAttribute('src', 'images/Counter.png');
       img.setAttribute('alt', 'null');
       img.className = 'counter';
       headTags.appendChild(img);
