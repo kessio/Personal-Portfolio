@@ -22,7 +22,7 @@
     <div class="overlay"></div>
     <section class="container-homepage">
       <header>
-        <nav>
+        <nav class="navigation-bar">
           <div class="mobile-nav">
             <a href="#" class="nav-item">
               <div class="logo">My Logo</div>
@@ -33,7 +33,7 @@
                 ><img src="images/Icon.png" alt="close-menu-icon">
               </a>
               <ul class="mobile-menu-list">
-                <li class="mobile-list-items"><a href="#mobile-work-section-link">Portfolio</a></li>
+                <li class="mobile-list-items"><a href="#projects-section">Projects</a></li>
                 <li class="mobile-list-items"><a href="#about-section-link">About</a></li>
                 <li class="mobile-list-items"><a href="#contact-section-link">Contact</a></li>
               </ul>
@@ -41,11 +41,11 @@
           </div>
 
           <div class="desktop-menu">
-            <div class="desktop-logo">My Logo</div>
+            <div class="desktop-logo">KESSIO</div>
             <ul class="desktop-menu-list">
-              <li class="list-items"><a href="#work-section-link">Portfolio</a></li>
-              <li class="list-items"><a href="#">About</a></li>
-              <li class="list-items"><a href="#">Contact</a></li>
+              <li class="list-items"><a href="#projects-section">Projects</a></li>
+              <li class="list-items"><a href="#about-section-link">About</a></li>
+              <li class="list-items"><a href="#contact-section-link">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -76,11 +76,11 @@
               <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"
                 ><i class="fa fa-linkedin"></i
               ></a>
-              <a href="#"><img class="m" src="images/m.svg" alt="m-icon" /></a>
+              <a href="https://medium.com/@kessio"><img class="m" src="images/m.svg" alt="m-icon" /></a>
               <a href="https://github.com/kessio"
                 ><img class="github" src="images/github.svg" alt="kessio"
               /></a>
-              <a href="#"
+              <a href="https://wellfound.com/u/sharon-kessio"
                 ><img class="like" src="images/like.svg" alt="like-icon"
               /></a>
             </div>
@@ -99,17 +99,21 @@
     <section class="about-section" id="about-section-link">
       <div class="about-flex-container">
         <div class="about-col">
-          <h6>
-            About <br />
-            Myself
-          </h6>
-          <p class="about-text">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <a href="#" class="connect">LET’S CONNECT</a>
+          <div>
+            <h3 class="about-me">
+              About  Me
+            </h3>
+          </div>
+          <div>
+            <p class="about-text">
+              Hello I’m a software developer! I specialize in creating software solutions 
+              for small businesses. I bring expertise in JavaScript, PHP, Laravel, MySQL, React, Ruby on Rails and jQuery to every project. 
+              Currently, I am enrolled in Microverse, a remote software development school that emphasizes pair programming and real-world projects to teach new skills
+            </p>
+          </div>
+          <div>
+            <a href="#" class="connect">LET’S CONNECT</a>
+          </div>
           <div class="my-socials">
             <a href="https://github.com/kessio"
               ><img class="git" src="images/github.svg" alt="github-icon"
@@ -117,65 +121,134 @@
             <a href="https://www.linkedin.com/in/sharon-kessio-172220b5"
               ><i class="fa fa-linkedin"></i
             ></a>
-            <a href="#"
+            <a href="https://wellfound.com/u/sharon-kessio"
               ><img class="likee" src="images/like.svg" alt="like-icon"
             /></a>
             <a href="https://twitter.com/kessio_sharon"
               ><img class="twit" src="images/twitter.svg" alt="twitter-icon"
             /></a>
-            <a href="#"><img class="m-m" src="images/m.svg" alt="m-icon" /></a>
+            <a href="https://medium.com/@kessio"><img class="m-m" src="images/m.svg" alt="m-icon" /></a>
           </div>
           <button class="resume-btn" type="button">Get My Resume</button>
         </div>
         <div class="about-right-col">
-          <h5>
-            <span class="title-lang">Languages</span>
-            <span class="angle-down"><i class="fa fa-angle-down"></i></span>
-          </h5>
           <div class="languages">
-            <a href="#" class="my-lang">
-              <div>
-                <span class="lang-img"
-                  ><img src="images/javascript.png" alt=""
-                /></span>
+            <div class="collapsible">
+              <div class="collapsible-header" onclick="toggleCollapsibleLanguage()">
+                <span class="my-lang-text">Languages</span>
+                <span class="angle-down">
+                  <i class="fa fa-angle-right"></i>
+                  </span>
+                </div>
+                <div class="collapsible-content">
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/javascript.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">Javascript</span>
+                  </a>
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/html.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">HTML</span>
+                  </a>
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/css.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">CSS</span>
+                  </a>
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/php.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">PHP</span>
+                  </a> 
+                </div>
               </div>
-              <span class="my-lang-text">Javascript</span>
-            </a>
-            <a href="#" class="my-lang">
-              <div>
-                <span class="lang-img"
-                  ><img src="images/html.png" alt=""
-                /></span>
-              </div>
-              <span class="my-lang-text">HTML</span>
-            </a>
-            <a href="#" class="my-lang">
-              <div>
-                <span class="lang-img"
-                  ><img src="images/css.png" alt=""
-                /></span>
-              </div>
-              <span class="my-lang-text">CSS</span>
-            </a>
           </div>
+          <div class="border"></div>
           <div class="others">
             <div class="framework">
-              <span class="framework-text">Frameworks</span>
-              <a href="#"><i class="fa fa-angle-right"></i></a>
-            </div>
+              <div class="collapsible">
+                <div class="collapsible-header" onclick="toggleCollapsibleFramework()">
+                  <span class="my-lang-text">Frameworks</span>
+                  <span class="angle-down">
+                    <i class="fa fa-angle-right"></i>
+                    </span>
+                </div>
+                <div class="collapsible-content-framework">
+                    <a href="#" class="my-lang">
+                      <div>
+                        <span class="lang-img">
+                          <img src="images/laravel.png" alt="" />
+                        </span>
+                      </div>
+                      <span class="my-lang-text">Laravel</span>
+                    </a>
+                    <a href="#" class="my-lang">
+                      <div>
+                        <span class="lang-img">
+                          <img src="images/rails.png" alt="" />
+                        </span>
+                      </div>
+                      <span class="my-lang-text">Ruby on Rails</span>
+                    </a>
+                    <a href="#" class="my-lang">
+                      <div>
+                        <span class="lang-img">
+                          <img src="images/react.png" alt="" />
+                        </span>
+                      </div>
+                      <span class="my-lang-text">React</span>
+                    </a>
+                </div>
+              </div>
+             </div>      
             <div class="border"></div>
             <div class="framework">
-              <span class="framework-text myborder">Skills</span>
-              <a href="#"><i class="fa fa-angle-right"></i></a>
-              <div class="border"></div>
-            </div>
+              <div class="collapsible">
+                <div class="collapsible-header" onclick="toggleCollapsibleSkills()">
+                  <span class="my-lang-text">Skills</span>
+                  <span class="angle-down">
+                    <i class="fa fa-angle-right"></i>
+                    </span>
+                </div>
+                <div class="collapsible-content-skills">
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/front-end.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">front-end dev</span>
+                  </a>
+                  <a href="#" class="my-lang">
+                    <div>
+                      <span class="lang-img">
+                        <img src="images/backend.png" alt="" />
+                      </span>
+                    </div>
+                    <span class="my-lang-text">Back-end dev</span>
+                  </a>
+                </div>
+              </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- End of About Section  -->
-
 
     <section class="contact-section" id="contact-section-link">
       <div class="contact-subsection">

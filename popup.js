@@ -3,53 +3,75 @@ const portfolioDetails = [
     id: 1,
     name: 'School Website',
     description: 'This is a coding Bootcamp school website that shocases services the school offers and a about us page',
-    moreDetails: 'This website was created using HTML5, CSS and JavaScript. Javascript was used to dynamically display testimonials section on the DOM. JavaSCript was also used to display and hide the navigation menu on small devices.',
+    moreDetails: 'This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML, CSS and javascript linters and proper Github Flow was used. Javascript was used to toggle the mobile menu. The Personal-portfolio website has been deployed using github pages, the link is below.',
     img: 'images/home-banner.png',
     mobileImg: 'images/mobile-home-banner.png',
     technologies: ['html', 'css', 'javascript'],
     Tags: ['Website', 'Front End Dev', '2022'],
     tagsImg: ['dot.png', 'dot.png'],
-    liveLink: ['https://kessio-microverse-projects.github.io/capstoneProject-1/'],
-    sourceLink: ['#'],
+    liveLink: ['https://kessio.github.io/capstoneProject-1/'],
+    sourceLink: ['https://github.com/kessio/capstoneProject-1']
   },
   {
     id: 2,
-    name: 'Multi-Post Stories',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming theirfriends.',
-    moreDetails: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    img: 'images/Snapshoot%20Portfolio-2-desktop.png',
+    name: 'E-commerce Store',
+    description: 'Ecommerce store built with react, commerce.js has been used to handle the backend of the store. Users can purchase items using stripe.',
+    moreDetails: 'This project contains a fully functional eCommerce application built with react and commercejs. eCommercejs API has been used to build product displays, carts, checkouts on the backend. This application allows users to add products to cart, checkout and pay using stripe. Once they purchase an item they will get a receipt on their email. I enjoyed buiding this eCommerce shop and learnt a lot of new concepts in the process.',
+    img: 'images/e-commerce.png',
     mobileImg: 'images/Snapshoot%20Portfolio-2.png',
-    technologies: ['html', 'css', 'ruby', 'javascript'],
-    Tags: ['Facebook', 'Full Stack Dev', '2015'],
-    tagsImg: ['dot.png', 'dot.png'],
-    liveLink: ['#'],
-    sourceLink: ['#'],
+    technologies: ['React', 'TailwindCSS', 'APIs'],
+    Tags: ['commerceJs', 'Full Stack Dev', '2022'],
+    liveLink: ['https://profound-malabi-179947.netlify.app/'],
+    sourceLink: ['https://github.com/kessio/e-commerce-shop']
   },
   {
     id: 3,
-    name: 'Facebook 360',
-    description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear   VR..',
-    moreDetails: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    img: 'images/Snapshoot%20Portfolio-3-desktop.png',
+    name: 'Crypto Price Tracker',
+    description: 'Web application that fetches the top 100 cryptocurrencies from coincap API and displays them for users to view. Redux has been used in state management',
+    moreDetails: 'Crypto-price-tracker is a web application that fetches the top 100 cryptocurrency from an api, displays ttem for users and users can click on each to check more details about the cryptocurrency. Redux has been used for state management, react testing library and jest has been used to test various redux functions and react components.',
+    img: 'images/crytpo-price-tracker.png',
     mobileImg: 'images/Snapshoot%20Portfolio-3.png',
-    technologies: ['html', 'css', 'ruby', 'javascript'],
-    Tags: ['Facebook', 'Full Stack Dev', '2015'],
-    tagsImg: ['dot.png', 'dot.png'],
-    liveLink: ['#'],
-    sourceLink: ['#'],
+    technologies: ['React', 'Redux', 'TailwindCSS'],
+    Tags: ['Crypto', 'Full Stack Dev', '2022'],
+    liveLink: ['https://teal-banoffee-1720f7.netlify.app/'],
+    sourceLink: ['https://github.com/kessio/crypto-price-tracker']
   },
   {
     id: 4,
-    name: 'Uber Navigation',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    moreDetails: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    img: 'images/Snapshoot%20Portfolio-4-desktop.png',
+    name: 'BookStore',
+    description: 'This project contains a book store that posts data to a bookstore api, fetches it from the api and displays it on the UI',
+    moreDetails: 'This project contains a book store that posts data to a bookstore api, fetches it from the api and displays it on the UI using react redux. Users can also add and delete books to the bookstore',
+    img: 'images/bookstore.png',
     mobileImg: 'images/Snapshoot%20Portfolio-4.png',
-    technologies: ['html', 'css', 'ruby', 'javascript'],
-    Tags: ['Uber', 'Lead Developer', '2015'],
+    technologies: ['React', 'Redux', 'Css'],
+    Tags: ['BookStore', 'Developer', '2022'],
     tagsImg: ['images/dot.png', 'dot.png'],
-    liveLink: ['#'],
-    sourceLink: ['#'],
+    liveLink: ['https://kessio.github.io/react-bookstore/'],
+    sourceLink: ['https://github.com/kessio/react-bookstore'],
+  },
+  {
+    id: 5,
+    name: 'BlogPost',
+    description: 'This project contains a blog that displays various blog posts to users, users can click on any article and read them. The articles are fecthed from hygraph CMS using graphql.',
+    moreDetails: 'This project is a fully responsive CMS blogpost created with Nextjs and tailwind CSS. The application fetches articles from hygraph CMS using graphql. Users can see a list of blog posts available and read the various articles on the site.',
+    img: 'images/blog-post.png',
+    technologies: ['GraphQl', 'NextJs', 'Css'],
+    Tags: ['BlogPost', 'Developer', '2022'],
+    tagsImg: ['images/dot.png', 'dot.png'],
+    liveLink: ['https://graphql-blog-website.vercel.app/'],
+    sourceLink: ['https://github.com/kessio/graphql-blog-website'],
+  },
+  {
+    id: 6,
+    name: 'Budgeter',
+    description: 'Budgeter app is a mobile application that allows users to add, delete, edit and keep track of their budget',
+    moreDetails: 'Budget App is a mobile web application that allows users to create an account, login then manage their budget by adding, deleting, editing and view their transcations.',
+    img: 'images/budgeter-new.png',
+    technologies: ['Ruby on Rails', 'Css', 'Render'],
+    Tags: ['FullStack Dev', 'Budgeter', '2023'],
+    tagsImg: ['images/dot.png', 'dot.png'],
+    liveLink: ['https://budgeter-uk8t.onrender.com/'],
+    sourceLink: ['https://github.com/kessio/budget-app-rails'],
   },
 ];
 
@@ -94,7 +116,9 @@ const Card = (work) => {
       img.setAttribute('alt', 'null');
       img.className = 'counter';
       headTags.appendChild(img);
+      
     }
+    
   }
   const p = document.createElement('p');
   p.innerText = work.description;
@@ -196,30 +220,22 @@ const modalWindow = (modal) => {
   }
 
   const buttons = document.createElement('div');
+  buttons.className = 'buttons'
   details.append(buttons);
+  const projectLive = document.createElement('a');
+  projectLive.setAttribute('href', modal.liveLink)
+  projectLive.setAttribute('target', 'blank');
+  projectLive.className = 'view-project';
+  projectLive.innerHTML = 'See Live';
+  buttons.append(projectLive);
 
-  const projectBtn = document.createElement('a');
-  projectBtn.setAttribute('href', 'https://kessio-microverse-projects.github.io/capstoneProject-1/');
-  projectBtn.setAttribute('target', 'blank');
-  projectBtn.className = 'view-project';
-  projectBtn.innerHTML = 'See Live';
-  buttons.append(projectBtn);
+ const sourceProject = document.createElement('a')
+ sourceProject.setAttribute('href', modal.sourceLink)
+ sourceProject.setAttribute('target', 'blank')
+ sourceProject.className = 'view-project source';
+ sourceProject.innerHTML = 'See Source'
 
-  const liveIcon = document.createElement('img');
-  liveIcon.setAttribute('src', 'images/icon-live.svg');
-  projectBtn.append(liveIcon);
-
-  const projectBtn2 = document.createElement('a');
-  projectBtn2.setAttribute('href', 'https://github.com/kessio/Personal-Portfolio');
-  projectBtn2.setAttribute('target', 'blank');
-  projectBtn2.className = 'view-project source';
-  projectBtn2.innerHTML = 'See Source';
-  buttons.append(projectBtn2);
-
-  const sourceIcon = document.createElement('img');
-  sourceIcon.setAttribute('src', 'images/vector.png');
-  projectBtn2.append(sourceIcon);
-
+ buttons.append(sourceProject)
   return popUpRow;
 };
 
@@ -234,6 +250,8 @@ const modal1 = document.getElementById('pop-1');
 const modal2 = document.getElementById('pop-2');
 const modal3 = document.getElementById('pop-3');
 const modal4 = document.getElementById('pop-4');
+const modal5 = document.getElementById('pop-5');
+const modal6 = document.getElementById('pop-6');
 const openModal = (event) => {
   if (event.target.nodeName === 'BUTTON') {
     const projectid = event.target.id;
@@ -249,6 +267,12 @@ const openModal = (event) => {
     } else if (projectid === 'my-4') {
       modal4.style.display = 'block';
       overlay.style.display = 'inline-block';
+    }else if (projectid === 'my-5') {
+      modal5.style.display = 'block';
+      overlay.style.display = 'inline-block';
+    }else if (projectid === 'my-6') {
+      modal6.style.display = 'block';
+      overlay.style.display = 'inline-block';
     }
   }
 };
@@ -258,6 +282,8 @@ const closemodal1 = document.getElementById('cl-1');
 const closemodal2 = document.getElementById('cl-2');
 const closemodal3 = document.getElementById('cl-3');
 const closemodal4 = document.getElementById('cl-4');
+const closemodal5 = document.getElementById('cl-5');
+const closemodal6 = document.getElementById('cl-6');
 
 closemodal1.addEventListener('click', () => {
   modal1.style.display = 'none';
@@ -275,10 +301,19 @@ closemodal4.addEventListener('click', () => {
   modal4.style.display = 'none';
   overlay.style.display = 'none';
 });
+closemodal5.addEventListener('click', () => {
+  modal5.style.display = 'none';
+  overlay.style.display = 'none';
+});
+closemodal6.addEventListener('click', () => {
+  modal6.style.display = 'none';
+  overlay.style.display = 'none';
+});
 overlay.addEventListener('click', () => {
   modal1.style.display = 'none';
   modal2.style.display = 'none';
   modal3.style.display = 'none';
   modal4.style.display = 'none';
+  modal5.style.display = 'none';
   overlay.style.display = 'none';
 });

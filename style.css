@@ -16,7 +16,7 @@ body {
 }
 
 .view-project {
-  margin-top: 200px;
+  margin-top: 50px;
   background-color: #fff;
   padding: 12px;
   border: 1px solid #396df2;
@@ -58,15 +58,23 @@ body {
   display: none;
 }
 
+#pop-5 {
+  display: none;
+}
+
+#pop-6 {
+  display: none;
+}
+
 .popup-row {
   position: fixed;
   display: flex;
   flex-direction: column;
   top: 5%;
-  right: 10%;
-  left: 10%;
+  right: 5%;
+  left: 5%;
   bottom: 1rem;
-  padding: 16px;
+  padding: 30px 10px;
   gap: 12px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -113,6 +121,10 @@ button.closebutton {
   line-height: 30px;
   color: #344563;
 }
+.tech-section-modal {
+  margin: 30px 0px;
+
+}
 
 .techss {
   font-weight: 500;
@@ -137,6 +149,43 @@ button.closebutton {
   font-size: 18px;
   transition: all 2s;
   animation: slidein 2s;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+}
+
+.navigation-bar.scrolled {
+  background-color: #6070ff;
+}
+
+.navigation-bar.scrolled .desktop-logo,
+.navigation-bar.scrolled .list-items a {
+  color: #fff;
+}
+.mobile-nav.white-text .logo,
+.mobile-nav.white-text .mobile-menu-item i {
+  color: #fff;
+}
+
+.collapsible-content {
+  display: none;
+}
+
+.collapsible-content-framework {
+  display: none;
+}
+
+.collapsible-content-skills {
+  display: none;
+}
+
+.angle-down.rotate {
+  transform: rotate(180deg);
 }
 
 /* ====================  1.0 == Mobile and small devices media query =====================  */
@@ -277,7 +326,7 @@ button.closebutton {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-bottom: 88px;
+    margin-bottom: 40px;
   }
 
   .work-imgdesktop {
@@ -309,6 +358,7 @@ button.closebutton {
     line-height: 16px;
     color: #7a869a;
     margin-bottom: 20px;
+    padding: 0px 5px;
   }
 
   .description {
@@ -346,15 +396,29 @@ button.closebutton {
   }
 
   .about-col {
-    padding: 114px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .about-me {
+    max-height: 114px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+
   }
 
   .about-text {
-    height: 144px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+  }
+
+  .my-socials {
+    margin-top: 20px;
   }
 
   a.connect {
@@ -417,6 +481,7 @@ button.closebutton {
   .angle-down {
     float: right;
     margin-right: 64px;
+    transition: transform 0.2s ease-in-out;
   }
 
   .languages {
@@ -424,6 +489,21 @@ button.closebutton {
     flex-direction: column;
     padding-left: 36px;
     padding-top: 12px;
+  }
+
+  .collapsible-content.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collapsible-content-framework.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collapsible-content-skills.show {
+    display: flex;
+    flex-direction: column;
   }
 
   .my-lang {
@@ -436,15 +516,11 @@ button.closebutton {
   }
 
   .my-lang-text {
-    width: 215px;
-    height: 24px;
     font-weight: 500;
-    font-size: 15px;
-    color: #253858;
-    line-height: 20px;
-    padding: 21px 16px 21px 16px;
-    align-items: center;
-    align-content: space-around;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 36px;
   }
 
   .lang-img {
@@ -817,7 +893,7 @@ button.closebutton {
     padding-right: 37px;
   }
 
-  h6 {
+  .about-me {
     max-height: 114px;
     font-weight: 700;
     font-size: 40px;
@@ -887,16 +963,26 @@ button.closebutton {
     margin-top: 12px;
   }
 
+  .collapsible-content.show {
+    display: flex;
+  }
+
+  .collapsible-content-framework.show {
+    display: flex;
+  }
+
+  .collapsible-content-skills.show {
+    display: flex;
+  }
+
   a.my-lang {
     background-color: #f7f7f9;
     border: solid #f7f7f9 1px;
-    display: block;
-    float: left;
     border-radius: 8px;
-    padding: 12px 62px 60px 12px;
+    padding: 12px 20px;
     margin-right: 12px;
     margin-bottom: 24px;
-    position: relative;
+
   }
 
   .fa-angle-right {
@@ -911,12 +997,13 @@ button.closebutton {
   }
 
   .my-lang-text {
-    padding-top: 16px;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #253858;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 36px;
   }
+  
 
   .framework-text {
     font-weight: 500;
