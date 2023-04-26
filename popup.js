@@ -4,7 +4,7 @@ const portfolioDetails = [
     name: 'School Website',
     description: 'This is a coding Bootcamp school website that shocases services the school offers and a about us page',
     moreDetails: 'This is a single-page portfolio website with a header, work section, about section, and contact section which was parsed from Microverse Figma Template 1. The webpage is responsive and can be used on different screens. The contact section and all animation effects the portfolio was done by all the three authors listed below as contributing authors. This project was made with HTML, CSS and javascript linters and proper Github Flow was used. Javascript was used to toggle the mobile menu. The Personal-portfolio website has been deployed using github pages, the link is below.',
-    img: 'images/home-banner.png',
+    img: 'images/home-banner.PNG',
     mobileImg: 'images/mobile-home-banner.png',
     technologies: ['html', 'css', 'javascript'],
     Tags: ['Website', 'Front End Dev', '2022'],
